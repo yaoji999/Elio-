@@ -2,57 +2,45 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>ELIO - Coach Virtuel IA</title>
+    <title>ELIO - Formulaire</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f6f8;
-            margin: 0;
-            padding: 0;
+            background-color: #f4f4f4;
+            padding: 40px;
         }
         .container {
-            max-width: 900px;
-            margin: 30px auto;
-            background-color: #ffffff;
+            max-width: 700px;
+            margin: auto;
+            background: white;
             padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            box-shadow: 0 0 10px #ccc;
         }
-        h1, h2 {
+        h1 {
             text-align: center;
-            color: #333;
-        }
-        form {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-        }
-        form div {
-            display: flex;
-            flex-direction: column;
         }
         label {
-            margin-bottom: 6px;
+            display: block;
+            margin-top: 15px;
             font-weight: bold;
         }
         input, select {
+            width: 100%;
             padding: 10px;
-            font-size: 16px;
+            margin-top: 5px;
+            border-radius: 5px;
             border: 1px solid #ccc;
-            border-radius: 6px;
-        }
-        .submit-button {
-            grid-column: span 2;
-            text-align: center;
-            margin-top: 30px;
         }
         button {
-            padding: 12px 24px;
-            font-size: 16px;
+            margin-top: 25px;
+            width: 100%;
             background-color: #333;
-            color: #fff;
+            color: white;
+            padding: 12px;
             border: none;
             border-radius: 6px;
+            font-size: 16px;
             cursor: pointer;
         }
         button:hover {
@@ -61,56 +49,46 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>ELIO</h1>
-        <h2>Ton programme sport & nutrition personnalisé</h2>
-        <form action="/results" method="post">
-            <div>
-                <label for="age">Âge</label>
-                <input type="number" name="age" id="age" required>
-            </div>
-            <div>
-                <label for="height">Taille (cm)</label>
-                <input type="number" name="height" id="height" required>
-            </div>
-            <div>
-                <label for="weight">Poids (kg)</label>
-                <input type="number" name="weight" id="weight" required>
-            </div>
-            <div>
-                <label for="goal">Objectif</label>
-                <select name="goal" id="goal">
-                    <option value="perte de poids">Perte de poids</option>
-                    <option value="prise de masse">Prise de masse</option>
-                    <option value="maintien">Maintien</option>
-                </select>
-            </div>
-            <div>
-                <label for="level">Niveau</label>
-                <select name="level" id="level">
-                    <option value="débutant">Débutant</option>
-                    <option value="intermédiaire">Intermédiaire</option>
-                    <option value="avancé">Avancé</option>
-                </select>
-            </div>
-            <div>
-                <label for="days">Jours d'entraînement / semaine</label>
-                <input type="number" name="days" id="days" min="1" max="7" required>
-            </div>
-            <div>
-                <label for="diet">Préférences alimentaires</label>
-                <select name="diet" id="diet">
-                    <option value="aucune">Aucune</option>
-                    <option value="végétarien">Végétarien</option>
-                    <option value="végétalien">Végétalien</option>
-                    <option value="halal">Halal</option>
-                    <option value="casher">Casher</option>
-                </select>
-            </div>
-            <div class="submit-button">
-                <button type="submit">Générer mon programme</button>
-            </div>
-        </form>
-    </div>
+<div class="container">
+    <h1>ELIO</h1>
+    <h2>Ton programme sport & nutrition personnalisé</h2>
+    <form action="/results" method="post">
+        <label for="age">Âge</label>
+        <input type="number" name="age" id="age" required>
+
+        <label for="taille">Taille (cm)</label>
+        <input type="number" name="taille" id="taille" required>
+
+        <label for="poids">Poids (kg)</label>
+        <input type="number" name="poids" id="poids" required>
+
+        <label for="objectif">Objectif</label>
+        <select name="objectif" id="objectif" required>
+            <option value="perte de poids">Perte de poids</option>
+            <option value="prise de masse">Prise de masse</option>
+            <option value="maintien">Maintien</option>
+        </select>
+
+        <label for="niveau">Niveau</label>
+        <select name="niveau" id="niveau" required>
+            <option value="débutant">Débutant</option>
+            <option value="intermédiaire">Intermédiaire</option>
+            <option value="avancé">Avancé</option>
+        </select>
+
+        <label for="jours">Jours d'entraînement / semaine</label>
+        <input type="number" name="jours" id="jours" required>
+
+        <label for="regime">Préférences alimentaires</label>
+        <select name="regime" id="regime" required>
+            <option value="aucune">Aucune</option>
+            <option value="végétarien">Végétarien</option>
+            <option value="végan">Végan</option>
+            <option value="sans gluten">Sans gluten</option>
+        </select>
+
+        <button type="submit">Générer mon programme</button>
+    </form>
+</div>
 </body>
 </html>

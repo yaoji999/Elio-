@@ -1,1 +1,116 @@
-
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>ELIO - Coach Virtuel IA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        form div {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-bottom: 6px;
+            font-weight: bold;
+        }
+        input, select {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+        .submit-button {
+            grid-column: span 2;
+            text-align: center;
+            margin-top: 30px;
+        }
+        button {
+            padding: 12px 24px;
+            font-size: 16px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ELIO</h1>
+        <h2>Ton programme sport & nutrition personnalisé</h2>
+        <form action="/generate" method="post">
+            <div>
+                <label for="age">Âge</label>
+                <input type="number" name="age" id="age" required>
+            </div>
+            <div>
+                <label for="height">Taille (cm)</label>
+                <input type="number" name="height" id="height" required>
+            </div>
+            <div>
+                <label for="weight">Poids (kg)</label>
+                <input type="number" name="weight" id="weight" required>
+            </div>
+            <div>
+                <label for="goal">Objectif</label>
+                <select name="goal" id="goal">
+                    <option value="perte de poids">Perte de poids</option>
+                    <option value="prise de masse">Prise de masse</option>
+                    <option value="maintien">Maintien</option>
+                </select>
+            </div>
+            <div>
+                <label for="level">Niveau</label>
+                <select name="level" id="level">
+                    <option value="débutant">Débutant</option>
+                    <option value="intermédiaire">Intermédiaire</option>
+                    <option value="avancé">Avancé</option>
+                </select>
+            </div>
+            <div>
+                <label for="days">Jours d'entraînement / semaine</label>
+                <input type="number" name="days" id="days" min="1" max="7" required>
+            </div>
+            <div>
+                <label for="diet">Préférences alimentaires</label>
+                <select name="diet" id="diet">
+                    <option value="aucune">Aucune</option>
+                    <option value="végétarien">Végétarien</option>
+                    <option value="végétalien">Végétalien</option>
+                    <option value="halal">Halal</option>
+                    <option value="casher">Casher</option>
+                </select>
+            </div>
+            <div class="submit-button">
+                <button type="submit">Générer mon programme</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

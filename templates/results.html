@@ -11,48 +11,58 @@
             color: #333;
         }
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: auto;
             background: white;
             padding: 30px;
             border-radius: 10px;
         }
-        h1 {
+        h1, h2, h3 {
             text-align: center;
         }
-        h2 {
-            margin-top: 30px;
-            color: #222;
+        h3 {
+            margin-top: 40px;
         }
         ul {
             line-height: 1.8;
+        }
+        .jour {
+            border-top: 1px solid #ccc;
+            padding-top: 20px;
+            margin-top: 30px;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Ton programme personnalisé, ELIO</h1>
+
         <p><strong>Âge :</strong> {{ age }} ans<br>
            <strong>Taille :</strong> {{ height }} cm<br>
            <strong>Poids :</strong> {{ weight }} kg<br>
            <strong>Objectif :</strong> {{ goal }}<br>
            <strong>Niveau :</strong> {{ level }}<br>
-           <strong>Jours/semaine :</strong> {{ days }}<br>
+           <strong>Jours / semaine :</strong> {{ days }}<br>
            <strong>Régime :</strong> {{ diet }}</p>
 
-        <h2>Programme Sport</h2>
-        <ul>
-            {% for line in sport_program %}
-                <li>{{ line }}</li>
-            {% endfor %}
-        </ul>
+        <h2>Programme sur {{ days }} jour(s)</h2>
 
-        <h2>Nutrition du jour</h2>
-        <ul>
-            <li><strong>Matin :</strong> {{ meals.matin }}</li>
-            <li><strong>Midi :</strong> {{ meals.midi }}</li>
-            <li><strong>Soir :</strong> {{ meals.soir }}</li>
-        </ul>
+        {% for plan in plans %}
+        <div class="jour">
+            <h3>{{ plan['Jour'] }}</h3>
+            <p><strong>Petit-déjeuner :</strong> {{ plan['Petit déjeuner'] }}</p>
+            <p><strong>Déjeuner :</strong> {{ plan['Déjeuner'] }}</p>
+            <p><strong>Dîner :</strong> {{ plan['Dîner'] }}</p>
+            <h4>Exercices</h4>
+            <ul>
+                <li>{{ plan['Exercice 1'] }}</li>
+                <li>{{ plan['Exercice 2'] }}</li>
+                <li>{{ plan['Exercice 3'] }}</li>
+                <li>{{ plan['Exercice 4'] }}</li>
+                <li>{{ plan['Exercice 5'] }}</li>
+            </ul>
+        </div>
+        {% endfor %}
     </div>
 </body>
 </html>

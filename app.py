@@ -2,7 +2,6 @@ from flask import Flask, render_template, request, send_file
 import json
 from io import BytesIO
 from xhtml2pdf import pisa
-import pandas as pd
 
 app = Flask(__name__)
 

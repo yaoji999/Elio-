@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request, send_file
+from flask import request
 import json
 from io import BytesIO
 from xhtml2pdf import pisa

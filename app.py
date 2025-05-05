@@ -20,7 +20,7 @@ def results():
     jours = int(request.form['jours'])
     regime = request.form['regime']
 
-    with open('ELIO_Plan_90_Jours.json', 'r', encoding='utf-8') as f:, encoding='utf-8') as f:
+    with open('ELIO_Plan_90_Jours.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
 
     plans = data[:jours]

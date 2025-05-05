@@ -1,5 +1,4 @@
 from flask import Flask, render_template, request, send_file
-from flask import request
 import json
 from io import BytesIO
 from xhtml2pdf import pisa
@@ -8,6 +7,9 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
+    code = request.args.get('code')
+    if code != 'elio2025':
+        return "Accès réservé à Elio Premium. Veuillez passer par le lien Gumroad."
     return render_template('elio_formulaire.html')
 
 @app.route('/results', methods=['POST'])

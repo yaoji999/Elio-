@@ -2,42 +2,32 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Résultats ELIO</title>
+    <title>Plan personnalisé ELIO</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #fdfdfd;
-            padding: 40px;
-            color: #333;
+            padding: 30px;
         }
-        .container {
-            max-width: 900px;
-            margin: auto;
-        }
-        h1, h2 {
-            text-align: center;
-            color: #2d7f4f;
+        h2 {
+            color: #2e7d32;
         }
         table {
             width: 100%;
             border-collapse: collapse;
-            margin-top: 30px;
+            margin-top: 20px;
         }
         th, td {
-            border: 1px solid #ccc;
-            padding: 12px;
+            border: 1px solid #aaa;
+            padding: 8px;
             text-align: left;
         }
         th {
-            background-color: #eee;
+            background-color: #e0e0e0;
         }
     </style>
 </head>
 <body>
-<div class="container">
-    <h1>Programme personnalisé ELIO</h1>
-    <h2>Plan sur {{ jours }} jour(s)</h2>
-
+    <h2>Programme personnalisé ELIO</h2>
     <p><strong>Âge :</strong> {{ age }} ans</p>
     <p><strong>Taille :</strong> {{ taille }} cm</p>
     <p><strong>Poids :</strong> {{ poids }} kg</p>
@@ -45,6 +35,7 @@
     <p><strong>Niveau :</strong> {{ niveau }}</p>
     <p><strong>Régime alimentaire :</strong> {{ regime }}</p>
 
+    <h3>Plan sur {{ jours }} jour(s)</h3>
     <table>
         <tr>
             <th>Jour</th>
@@ -53,23 +44,19 @@
             <th>Dîner</th>
             <th>Exercices</th>
         </tr>
-        {% for plan in plans %}
+        {% for jour, plan in plan_data.items() %}
         <tr>
-            <td>{{ plan["Jour"] }}</td>
-            <td>{{ plan["Petit déjeuner"] }}</td>
-            <td>{{ plan["Déjeuner"] }}</td>
-            <td>{{ plan["Dîner"] }}</td>
+            <td>{{ jour }}</td>
+            <td>{{ plan.petit_dejeuner }}</td>
+            <td>{{ plan.dejeuner }}</td>
+            <td>{{ plan.diner }}</td>
             <td>
-                {{ plan["Exercice 1"] }}<br>
-                {{ plan["Exercice 2"] }}<br>
-                {{ plan["Exercice 3"] }}<br>
-                {{ plan["Exercice 4"] }}<br>
-                {{ plan["Exercice 5"] }}
+                {% for exo in plan.exercices %}
+                    {{ exo.name }} – {{ exo.sets }} x {{ exo.reps }} ({{ exo.kcal }} kcal)<br>
+                {% endfor %}
             </td>
         </tr>
         {% endfor %}
     </table>
-</div>
 </body>
 </html>
-

@@ -20,15 +20,16 @@ def results():
         jours = int(request.form['jours'])
         regime = request.form['regime']
 
-        # Chargement des plans depuis le fichier JSON
-with open('ELIO_Plan_90_Jours_Complet.json', 'r', encoding='utf-8') as f:
-    plans = json.load(f)
-
+        # Chargement du plan JSON
+        with open('ELIO_Plan_90_Jours_Complet.json', 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        
         plans = data[:jours]
 
-        return render_template('results_calories.html', age=age, taille=taille, poids=poids,
-                       objectif=objectif, niveau=niveau, jours=jours,
-                       regime=regime, plans=plans)
+        return render_template('results_calories.html',
+                               age=age, taille=taille, poids=poids,
+                               objectif=objectif, niveau=niveau, jours=jours,
+                               regime=regime, plans=plans)
     except Exception as e:
         return f"Erreur dans le traitement des données : {str(e)}", 500
 
@@ -54,20 +55,20 @@ def download_pdf():
             </style>
         </head>
         <body>
-            <h1>Programme ELIO – {plan["Jour"]}</h1>
+            <h1>Programme ELIO – {plan["jour"]}</h1>
 
             <h2>Nutrition</h2>
-            <p><strong>Petit déjeuner :</strong> {plan["Petit déjeuner"]}</p>
-            <p><strong>Déjeuner :</strong> {plan["Déjeuner"]}</p>
-            <p><strong>Dîner :</strong> {plan["Dîner"]}</p>
+            <p><strong>Petit déjeuner :</strong> {plan["petit_dejeuner"]["desc"]} ({plan["petit_dejeuner"]["kcal"]} kcal)</p>
+            <p><strong>Déjeuner :</strong> {plan["dejeuner"]["desc"]} ({plan["dejeuner"]["kcal"]} kcal)</p>
+            <p><strong>Dîner :</strong> {plan["diner"]["desc"]} ({plan["diner"]["kcal"]} kcal)</p>
 
             <h2>Exercices</h2>
             <ul>
-                <li>{plan["Exercice 1"]}</li>
-                <li>{plan["Exercice 2"]}</li>
-                <li>{plan["Exercice 3"]}</li>
-                <li>{plan["Exercice 4"]}</li>
-                <li>{plan["Exercice 5"]}</li>
+        """
+        for ex in plan["exercices"]:
+            html += f"<li>{ex['name']} – {ex['sets']} x {ex['reps']} ({ex['kcal']} kcal)</li>"
+
+        html += """
             </ul>
         </body>
         </html>

@@ -1,89 +1,39 @@
-from flask import Flask, render_template, request, send_file
+from flask import Flask, render_template, request
 import json
-from io import BytesIO
-from xhtml2pdf import pisa
 
 app = Flask(__name__)
+
+# Charger les données du fichier JSON
+with open('ELIO_Plan_90_Jours_Complet.json', 'r', encoding='utf-8') as f:
+    all_plans = json.load(f)
 
 @app.route('/')
 def index():
     return render_template('elio_formulaire.html')
 
-@app.route('/results', methods=['POST'])
-def results():
+@app.route('/generate', methods=['POST'])
+def generate():
     try:
-        age = request.form['age']
-        taille = request.form['taille']
-        poids = request.form['poids']
+        age = int(request.form['age'])
+        taille = int(request.form['taille'])
+        poids = int(request.form['poids'])
         objectif = request.form['objectif']
         niveau = request.form['niveau']
         jours = int(request.form['jours'])
         regime = request.form['regime']
 
-        # Chargement du plan JSON
-        with open('ELIO_Plan_90_Jours_Complet.json', 'r', encoding='utf-8') as f:
-            data = json.load(f)
-        
-        plans = data[:jours]
+        # Préparer les jours personnalisés
+        plan_data = {}
+        for i in range(1, jours + 1):
+            plan_data[f"Jour {i}"] = all_plans[i - 1]
 
-        return render_template('results_calories.html',
+        return render_template("results_calories.html",
                                age=age, taille=taille, poids=poids,
-                               objectif=objectif, niveau=niveau, jours=jours,
-                               regime=regime, plans=plans)
+                               objectif=objectif, niveau=niveau,
+                               regime=regime, jours=jours,
+                               plan_data=plan_data)
     except Exception as e:
-        return f"Erreur dans le traitement des données : {str(e)}", 500
-
-@app.route('/download-pdf', methods=['POST'])
-def download_pdf():
-    try:
-        plan_data = request.form.get('plans_json')
-        plans = json.loads(plan_data)
-        plan = plans[0]
-
-        html = f"""
-        <html>
-        <head>
-            <style>
-                body {{
-                    font-family: Helvetica, sans-serif;
-                    padding: 30px;
-                    color: #222;
-                }}
-                h1 {{ text-align: center; }}
-                h2 {{ margin-top: 30px; border-bottom: 1px solid #ccc; }}
-                ul {{ margin-top: 10px; }}
-            </style>
-        </head>
-        <body>
-            <h1>Programme ELIO – {plan["jour"]}</h1>
-
-            <h2>Nutrition</h2>
-            <p><strong>Petit déjeuner :</strong> {plan["petit_dejeuner"]["desc"]} ({plan["petit_dejeuner"]["kcal"]} kcal)</p>
-            <p><strong>Déjeuner :</strong> {plan["dejeuner"]["desc"]} ({plan["dejeuner"]["kcal"]} kcal)</p>
-            <p><strong>Dîner :</strong> {plan["diner"]["desc"]} ({plan["diner"]["kcal"]} kcal)</p>
-
-            <h2>Exercices</h2>
-            <ul>
-        """
-        for ex in plan["exercices"]:
-            html += f"<li>{ex['name']} – {ex['sets']} x {ex['reps']} ({ex['kcal']} kcal)</li>"
-
-        html += """
-            </ul>
-        </body>
-        </html>
-        """
-
-        result = BytesIO()
-        pisa_status = pisa.CreatePDF(src=html, dest=result)
-
-        if pisa_status.err:
-            return "Erreur lors de la génération du PDF", 500
-
-        result.seek(0)
-        return send_file(result, mimetype='application/pdf', as_attachment=True, download_name='programme_elio.pdf')
-    except Exception as e:
-        return f"Erreur PDF : {str(e)}", 500
+        return f"Erreur : {e}"
 
 if __name__ == '__main__':
     app.run(debug=True)

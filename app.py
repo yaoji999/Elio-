@@ -26,12 +26,12 @@ def generate():
         plan_data = {}
         for i in range(1, jours + 1):
             jour_plan = all_plans[i - 1]
-plan_data[f"Jour {i}"] = {
-    "petit_dejeuner": jour_plan["petit_dejeuner"],
-    "dejeuner": jour_plan["dejeuner"],
-    "diner": jour_plan["diner"],
-    "exercices": jour_plan["exercices"]
-}
+            plan_data[f"Jour {i}"] = {
+                "petit_dejeuner": jour_plan["petit_dejeuner"],
+                "dejeuner": jour_plan["dejeuner"],
+                "diner": jour_plan["diner"],
+                "exercices": jour_plan["exercices"]
+            }
 
         return render_template("results_calories.html",
                                age=age, taille=taille, poids=poids,

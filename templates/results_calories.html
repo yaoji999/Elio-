@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Plan personnalisé ELIO</title>
+    <title>Programme ELIO</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -47,9 +47,9 @@
         {% for jour, plan in plan_data.items() %}
         <tr>
             <td>{{ jour }}</td>
-            <td>{{ plan.petit_dejeuner }}</td>
-            <td>{{ plan.dejeuner }}</td>
-            <td>{{ plan.diner }}</td>
+            <td>{{ plan.petit_dejeuner.desc }} ({{ plan.petit_dejeuner.kcal }} kcal)</td>
+            <td>{{ plan.dejeuner.desc }} ({{ plan.dejeuner.kcal }} kcal)</td>
+            <td>{{ plan.diner.desc }} ({{ plan.diner.kcal }} kcal)</td>
             <td>
                 {% for exo in plan.exercices %}
                     {{ exo.name }} – {{ exo.sets }} x {{ exo.reps }} ({{ exo.kcal }} kcal)<br>

@@ -1,0 +1,3062 @@
+[
+    {
+        "petit_dejeuner": {
+            "desc": "Granola + yaourt nature + fraises",
+            "kcal": 320
+        },
+        "dejeuner": {
+            "desc": "Tofu sauté + brocoli + carottes + nouilles complètes",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe lentilles + œuf dur + épinards",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Smoothie banane + beurre de cacahuète + flocons d’avoine",
+            "kcal": 350
+        },
+        "dejeuner": {
+            "desc": "Pois chiches + courgettes + quinoa",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Poêlée légumes verts + tofu grillé",
+            "kcal": 390
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Pain complet + avocat + œuf poché",
+            "kcal": 340
+        },
+        "dejeuner": {
+            "desc": "Buddha bowl : lentilles, carottes râpées, poivrons, roquette",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Riz complet + haricots rouges + chou-fleur",
+            "kcal": 410
+        },
+        "exercices": [
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Flocons d’avoine + lait d’amande + myrtilles",
+            "kcal": 330
+        },
+        "dejeuner": {
+            "desc": "Salade pois chiches + concombres + tomates + riz",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe courge + tartines pain complet + houmous",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Granola + yaourt nature + fraises",
+            "kcal": 320
+        },
+        "dejeuner": {
+            "desc": "Tofu sauté + brocoli + carottes + nouilles complètes",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe lentilles + œuf dur + épinards",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Smoothie banane + beurre de cacahuète + flocons d’avoine",
+            "kcal": 350
+        },
+        "dejeuner": {
+            "desc": "Pois chiches + courgettes + quinoa",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Poêlée légumes verts + tofu grillé",
+            "kcal": 390
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Pain complet + avocat + œuf poché",
+            "kcal": 340
+        },
+        "dejeuner": {
+            "desc": "Buddha bowl : lentilles, carottes râpées, poivrons, roquette",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Riz complet + haricots rouges + chou-fleur",
+            "kcal": 410
+        },
+        "exercices": [
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Flocons d’avoine + lait d’amande + myrtilles",
+            "kcal": 330
+        },
+        "dejeuner": {
+            "desc": "Salade pois chiches + concombres + tomates + riz",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe courge + tartines pain complet + houmous",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Granola + yaourt nature + fraises",
+            "kcal": 320
+        },
+        "dejeuner": {
+            "desc": "Tofu sauté + brocoli + carottes + nouilles complètes",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe lentilles + œuf dur + épinards",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Smoothie banane + beurre de cacahuète + flocons d’avoine",
+            "kcal": 350
+        },
+        "dejeuner": {
+            "desc": "Pois chiches + courgettes + quinoa",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Poêlée légumes verts + tofu grillé",
+            "kcal": 390
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Pain complet + avocat + œuf poché",
+            "kcal": 340
+        },
+        "dejeuner": {
+            "desc": "Buddha bowl : lentilles, carottes râpées, poivrons, roquette",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Riz complet + haricots rouges + chou-fleur",
+            "kcal": 410
+        },
+        "exercices": [
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Flocons d’avoine + lait d’amande + myrtilles",
+            "kcal": 330
+        },
+        "dejeuner": {
+            "desc": "Salade pois chiches + concombres + tomates + riz",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe courge + tartines pain complet + houmous",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Granola + yaourt nature + fraises",
+            "kcal": 320
+        },
+        "dejeuner": {
+            "desc": "Tofu sauté + brocoli + carottes + nouilles complètes",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe lentilles + œuf dur + épinards",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Smoothie banane + beurre de cacahuète + flocons d’avoine",
+            "kcal": 350
+        },
+        "dejeuner": {
+            "desc": "Pois chiches + courgettes + quinoa",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Poêlée légumes verts + tofu grillé",
+            "kcal": 390
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Pain complet + avocat + œuf poché",
+            "kcal": 340
+        },
+        "dejeuner": {
+            "desc": "Buddha bowl : lentilles, carottes râpées, poivrons, roquette",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Riz complet + haricots rouges + chou-fleur",
+            "kcal": 410
+        },
+        "exercices": [
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Flocons d’avoine + lait d’amande + myrtilles",
+            "kcal": 330
+        },
+        "dejeuner": {
+            "desc": "Salade pois chiches + concombres + tomates + riz",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe courge + tartines pain complet + houmous",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Granola + yaourt nature + fraises",
+            "kcal": 320
+        },
+        "dejeuner": {
+            "desc": "Tofu sauté + brocoli + carottes + nouilles complètes",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe lentilles + œuf dur + épinards",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Smoothie banane + beurre de cacahuète + flocons d’avoine",
+            "kcal": 350
+        },
+        "dejeuner": {
+            "desc": "Pois chiches + courgettes + quinoa",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Poêlée légumes verts + tofu grillé",
+            "kcal": 390
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Pain complet + avocat + œuf poché",
+            "kcal": 340
+        },
+        "dejeuner": {
+            "desc": "Buddha bowl : lentilles, carottes râpées, poivrons, roquette",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Riz complet + haricots rouges + chou-fleur",
+            "kcal": 410
+        },
+        "exercices": [
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Flocons d’avoine + lait d’amande + myrtilles",
+            "kcal": 330
+        },
+        "dejeuner": {
+            "desc": "Salade pois chiches + concombres + tomates + riz",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe courge + tartines pain complet + houmous",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Granola + yaourt nature + fraises",
+            "kcal": 320
+        },
+        "dejeuner": {
+            "desc": "Tofu sauté + brocoli + carottes + nouilles complètes",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe lentilles + œuf dur + épinards",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Smoothie banane + beurre de cacahuète + flocons d’avoine",
+            "kcal": 350
+        },
+        "dejeuner": {
+            "desc": "Pois chiches + courgettes + quinoa",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Poêlée légumes verts + tofu grillé",
+            "kcal": 390
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Pain complet + avocat + œuf poché",
+            "kcal": 340
+        },
+        "dejeuner": {
+            "desc": "Buddha bowl : lentilles, carottes râpées, poivrons, roquette",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Riz complet + haricots rouges + chou-fleur",
+            "kcal": 410
+        },
+        "exercices": [
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Flocons d’avoine + lait d’amande + myrtilles",
+            "kcal": 330
+        },
+        "dejeuner": {
+            "desc": "Salade pois chiches + concombres + tomates + riz",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe courge + tartines pain complet + houmous",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Granola + yaourt nature + fraises",
+            "kcal": 320
+        },
+        "dejeuner": {
+            "desc": "Tofu sauté + brocoli + carottes + nouilles complètes",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe lentilles + œuf dur + épinards",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Smoothie banane + beurre de cacahuète + flocons d’avoine",
+            "kcal": 350
+        },
+        "dejeuner": {
+            "desc": "Pois chiches + courgettes + quinoa",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Poêlée légumes verts + tofu grillé",
+            "kcal": 390
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Pain complet + avocat + œuf poché",
+            "kcal": 340
+        },
+        "dejeuner": {
+            "desc": "Buddha bowl : lentilles, carottes râpées, poivrons, roquette",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Riz complet + haricots rouges + chou-fleur",
+            "kcal": 410
+        },
+        "exercices": [
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Flocons d’avoine + lait d’amande + myrtilles",
+            "kcal": 330
+        },
+        "dejeuner": {
+            "desc": "Salade pois chiches + concombres + tomates + riz",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe courge + tartines pain complet + houmous",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Granola + yaourt nature + fraises",
+            "kcal": 320
+        },
+        "dejeuner": {
+            "desc": "Tofu sauté + brocoli + carottes + nouilles complètes",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe lentilles + œuf dur + épinards",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Smoothie banane + beurre de cacahuète + flocons d’avoine",
+            "kcal": 350
+        },
+        "dejeuner": {
+            "desc": "Pois chiches + courgettes + quinoa",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Poêlée légumes verts + tofu grillé",
+            "kcal": 390
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Pain complet + avocat + œuf poché",
+            "kcal": 340
+        },
+        "dejeuner": {
+            "desc": "Buddha bowl : lentilles, carottes râpées, poivrons, roquette",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Riz complet + haricots rouges + chou-fleur",
+            "kcal": 410
+        },
+        "exercices": [
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Flocons d’avoine + lait d’amande + myrtilles",
+            "kcal": 330
+        },
+        "dejeuner": {
+            "desc": "Salade pois chiches + concombres + tomates + riz",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe courge + tartines pain complet + houmous",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Granola + yaourt nature + fraises",
+            "kcal": 320
+        },
+        "dejeuner": {
+            "desc": "Tofu sauté + brocoli + carottes + nouilles complètes",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe lentilles + œuf dur + épinards",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Smoothie banane + beurre de cacahuète + flocons d’avoine",
+            "kcal": 350
+        },
+        "dejeuner": {
+            "desc": "Pois chiches + courgettes + quinoa",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Poêlée légumes verts + tofu grillé",
+            "kcal": 390
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Pain complet + avocat + œuf poché",
+            "kcal": 340
+        },
+        "dejeuner": {
+            "desc": "Buddha bowl : lentilles, carottes râpées, poivrons, roquette",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Riz complet + haricots rouges + chou-fleur",
+            "kcal": 410
+        },
+        "exercices": [
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Flocons d’avoine + lait d’amande + myrtilles",
+            "kcal": 330
+        },
+        "dejeuner": {
+            "desc": "Salade pois chiches + concombres + tomates + riz",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe courge + tartines pain complet + houmous",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Granola + yaourt nature + fraises",
+            "kcal": 320
+        },
+        "dejeuner": {
+            "desc": "Tofu sauté + brocoli + carottes + nouilles complètes",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe lentilles + œuf dur + épinards",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Smoothie banane + beurre de cacahuète + flocons d’avoine",
+            "kcal": 350
+        },
+        "dejeuner": {
+            "desc": "Pois chiches + courgettes + quinoa",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Poêlée légumes verts + tofu grillé",
+            "kcal": 390
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Pain complet + avocat + œuf poché",
+            "kcal": 340
+        },
+        "dejeuner": {
+            "desc": "Buddha bowl : lentilles, carottes râpées, poivrons, roquette",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Riz complet + haricots rouges + chou-fleur",
+            "kcal": 410
+        },
+        "exercices": [
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Flocons d’avoine + lait d’amande + myrtilles",
+            "kcal": 330
+        },
+        "dejeuner": {
+            "desc": "Salade pois chiches + concombres + tomates + riz",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe courge + tartines pain complet + houmous",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Granola + yaourt nature + fraises",
+            "kcal": 320
+        },
+        "dejeuner": {
+            "desc": "Tofu sauté + brocoli + carottes + nouilles complètes",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe lentilles + œuf dur + épinards",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Smoothie banane + beurre de cacahuète + flocons d’avoine",
+            "kcal": 350
+        },
+        "dejeuner": {
+            "desc": "Pois chiches + courgettes + quinoa",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Poêlée légumes verts + tofu grillé",
+            "kcal": 390
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Pain complet + avocat + œuf poché",
+            "kcal": 340
+        },
+        "dejeuner": {
+            "desc": "Buddha bowl : lentilles, carottes râpées, poivrons, roquette",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Riz complet + haricots rouges + chou-fleur",
+            "kcal": 410
+        },
+        "exercices": [
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Flocons d’avoine + lait d’amande + myrtilles",
+            "kcal": 330
+        },
+        "dejeuner": {
+            "desc": "Salade pois chiches + concombres + tomates + riz",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe courge + tartines pain complet + houmous",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Granola + yaourt nature + fraises",
+            "kcal": 320
+        },
+        "dejeuner": {
+            "desc": "Tofu sauté + brocoli + carottes + nouilles complètes",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe lentilles + œuf dur + épinards",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Smoothie banane + beurre de cacahuète + flocons d’avoine",
+            "kcal": 350
+        },
+        "dejeuner": {
+            "desc": "Pois chiches + courgettes + quinoa",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Poêlée légumes verts + tofu grillé",
+            "kcal": 390
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Pain complet + avocat + œuf poché",
+            "kcal": 340
+        },
+        "dejeuner": {
+            "desc": "Buddha bowl : lentilles, carottes râpées, poivrons, roquette",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Riz complet + haricots rouges + chou-fleur",
+            "kcal": 410
+        },
+        "exercices": [
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Flocons d’avoine + lait d’amande + myrtilles",
+            "kcal": 330
+        },
+        "dejeuner": {
+            "desc": "Salade pois chiches + concombres + tomates + riz",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe courge + tartines pain complet + houmous",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Granola + yaourt nature + fraises",
+            "kcal": 320
+        },
+        "dejeuner": {
+            "desc": "Tofu sauté + brocoli + carottes + nouilles complètes",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe lentilles + œuf dur + épinards",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Smoothie banane + beurre de cacahuète + flocons d’avoine",
+            "kcal": 350
+        },
+        "dejeuner": {
+            "desc": "Pois chiches + courgettes + quinoa",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Poêlée légumes verts + tofu grillé",
+            "kcal": 390
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Pain complet + avocat + œuf poché",
+            "kcal": 340
+        },
+        "dejeuner": {
+            "desc": "Buddha bowl : lentilles, carottes râpées, poivrons, roquette",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Riz complet + haricots rouges + chou-fleur",
+            "kcal": 410
+        },
+        "exercices": [
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Flocons d’avoine + lait d’amande + myrtilles",
+            "kcal": 330
+        },
+        "dejeuner": {
+            "desc": "Salade pois chiches + concombres + tomates + riz",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe courge + tartines pain complet + houmous",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Granola + yaourt nature + fraises",
+            "kcal": 320
+        },
+        "dejeuner": {
+            "desc": "Tofu sauté + brocoli + carottes + nouilles complètes",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe lentilles + œuf dur + épinards",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Smoothie banane + beurre de cacahuète + flocons d’avoine",
+            "kcal": 350
+        },
+        "dejeuner": {
+            "desc": "Pois chiches + courgettes + quinoa",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Poêlée légumes verts + tofu grillé",
+            "kcal": 390
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Pain complet + avocat + œuf poché",
+            "kcal": 340
+        },
+        "dejeuner": {
+            "desc": "Buddha bowl : lentilles, carottes râpées, poivrons, roquette",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Riz complet + haricots rouges + chou-fleur",
+            "kcal": 410
+        },
+        "exercices": [
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Flocons d’avoine + lait d’amande + myrtilles",
+            "kcal": 330
+        },
+        "dejeuner": {
+            "desc": "Salade pois chiches + concombres + tomates + riz",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe courge + tartines pain complet + houmous",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Granola + yaourt nature + fraises",
+            "kcal": 320
+        },
+        "dejeuner": {
+            "desc": "Tofu sauté + brocoli + carottes + nouilles complètes",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe lentilles + œuf dur + épinards",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Smoothie banane + beurre de cacahuète + flocons d’avoine",
+            "kcal": 350
+        },
+        "dejeuner": {
+            "desc": "Pois chiches + courgettes + quinoa",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Poêlée légumes verts + tofu grillé",
+            "kcal": 390
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Pain complet + avocat + œuf poché",
+            "kcal": 340
+        },
+        "dejeuner": {
+            "desc": "Buddha bowl : lentilles, carottes râpées, poivrons, roquette",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Riz complet + haricots rouges + chou-fleur",
+            "kcal": 410
+        },
+        "exercices": [
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Flocons d’avoine + lait d’amande + myrtilles",
+            "kcal": 330
+        },
+        "dejeuner": {
+            "desc": "Salade pois chiches + concombres + tomates + riz",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe courge + tartines pain complet + houmous",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Granola + yaourt nature + fraises",
+            "kcal": 320
+        },
+        "dejeuner": {
+            "desc": "Tofu sauté + brocoli + carottes + nouilles complètes",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe lentilles + œuf dur + épinards",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Smoothie banane + beurre de cacahuète + flocons d’avoine",
+            "kcal": 350
+        },
+        "dejeuner": {
+            "desc": "Pois chiches + courgettes + quinoa",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Poêlée légumes verts + tofu grillé",
+            "kcal": 390
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Pain complet + avocat + œuf poché",
+            "kcal": 340
+        },
+        "dejeuner": {
+            "desc": "Buddha bowl : lentilles, carottes râpées, poivrons, roquette",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Riz complet + haricots rouges + chou-fleur",
+            "kcal": 410
+        },
+        "exercices": [
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Flocons d’avoine + lait d’amande + myrtilles",
+            "kcal": 330
+        },
+        "dejeuner": {
+            "desc": "Salade pois chiches + concombres + tomates + riz",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe courge + tartines pain complet + houmous",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Granola + yaourt nature + fraises",
+            "kcal": 320
+        },
+        "dejeuner": {
+            "desc": "Tofu sauté + brocoli + carottes + nouilles complètes",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe lentilles + œuf dur + épinards",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Smoothie banane + beurre de cacahuète + flocons d’avoine",
+            "kcal": 350
+        },
+        "dejeuner": {
+            "desc": "Pois chiches + courgettes + quinoa",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Poêlée légumes verts + tofu grillé",
+            "kcal": 390
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Pain complet + avocat + œuf poché",
+            "kcal": 340
+        },
+        "dejeuner": {
+            "desc": "Buddha bowl : lentilles, carottes râpées, poivrons, roquette",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Riz complet + haricots rouges + chou-fleur",
+            "kcal": 410
+        },
+        "exercices": [
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Flocons d’avoine + lait d’amande + myrtilles",
+            "kcal": 330
+        },
+        "dejeuner": {
+            "desc": "Salade pois chiches + concombres + tomates + riz",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe courge + tartines pain complet + houmous",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Granola + yaourt nature + fraises",
+            "kcal": 320
+        },
+        "dejeuner": {
+            "desc": "Tofu sauté + brocoli + carottes + nouilles complètes",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe lentilles + œuf dur + épinards",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Smoothie banane + beurre de cacahuète + flocons d’avoine",
+            "kcal": 350
+        },
+        "dejeuner": {
+            "desc": "Pois chiches + courgettes + quinoa",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Poêlée légumes verts + tofu grillé",
+            "kcal": 390
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Pain complet + avocat + œuf poché",
+            "kcal": 340
+        },
+        "dejeuner": {
+            "desc": "Buddha bowl : lentilles, carottes râpées, poivrons, roquette",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Riz complet + haricots rouges + chou-fleur",
+            "kcal": 410
+        },
+        "exercices": [
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Flocons d’avoine + lait d’amande + myrtilles",
+            "kcal": 330
+        },
+        "dejeuner": {
+            "desc": "Salade pois chiches + concombres + tomates + riz",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe courge + tartines pain complet + houmous",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Granola + yaourt nature + fraises",
+            "kcal": 320
+        },
+        "dejeuner": {
+            "desc": "Tofu sauté + brocoli + carottes + nouilles complètes",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe lentilles + œuf dur + épinards",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Smoothie banane + beurre de cacahuète + flocons d’avoine",
+            "kcal": 350
+        },
+        "dejeuner": {
+            "desc": "Pois chiches + courgettes + quinoa",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Poêlée légumes verts + tofu grillé",
+            "kcal": 390
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Pain complet + avocat + œuf poché",
+            "kcal": 340
+        },
+        "dejeuner": {
+            "desc": "Buddha bowl : lentilles, carottes râpées, poivrons, roquette",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Riz complet + haricots rouges + chou-fleur",
+            "kcal": 410
+        },
+        "exercices": [
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Flocons d’avoine + lait d’amande + myrtilles",
+            "kcal": 330
+        },
+        "dejeuner": {
+            "desc": "Salade pois chiches + concombres + tomates + riz",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe courge + tartines pain complet + houmous",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Granola + yaourt nature + fraises",
+            "kcal": 320
+        },
+        "dejeuner": {
+            "desc": "Tofu sauté + brocoli + carottes + nouilles complètes",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe lentilles + œuf dur + épinards",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Smoothie banane + beurre de cacahuète + flocons d’avoine",
+            "kcal": 350
+        },
+        "dejeuner": {
+            "desc": "Pois chiches + courgettes + quinoa",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Poêlée légumes verts + tofu grillé",
+            "kcal": 390
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Pain complet + avocat + œuf poché",
+            "kcal": 340
+        },
+        "dejeuner": {
+            "desc": "Buddha bowl : lentilles, carottes râpées, poivrons, roquette",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Riz complet + haricots rouges + chou-fleur",
+            "kcal": 410
+        },
+        "exercices": [
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Flocons d’avoine + lait d’amande + myrtilles",
+            "kcal": 330
+        },
+        "dejeuner": {
+            "desc": "Salade pois chiches + concombres + tomates + riz",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe courge + tartines pain complet + houmous",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Granola + yaourt nature + fraises",
+            "kcal": 320
+        },
+        "dejeuner": {
+            "desc": "Tofu sauté + brocoli + carottes + nouilles complètes",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe lentilles + œuf dur + épinards",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Smoothie banane + beurre de cacahuète + flocons d’avoine",
+            "kcal": 350
+        },
+        "dejeuner": {
+            "desc": "Pois chiches + courgettes + quinoa",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Poêlée légumes verts + tofu grillé",
+            "kcal": 390
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Pain complet + avocat + œuf poché",
+            "kcal": 340
+        },
+        "dejeuner": {
+            "desc": "Buddha bowl : lentilles, carottes râpées, poivrons, roquette",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Riz complet + haricots rouges + chou-fleur",
+            "kcal": 410
+        },
+        "exercices": [
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Flocons d’avoine + lait d’amande + myrtilles",
+            "kcal": 330
+        },
+        "dejeuner": {
+            "desc": "Salade pois chiches + concombres + tomates + riz",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe courge + tartines pain complet + houmous",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Granola + yaourt nature + fraises",
+            "kcal": 320
+        },
+        "dejeuner": {
+            "desc": "Tofu sauté + brocoli + carottes + nouilles complètes",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe lentilles + œuf dur + épinards",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Smoothie banane + beurre de cacahuète + flocons d’avoine",
+            "kcal": 350
+        },
+        "dejeuner": {
+            "desc": "Pois chiches + courgettes + quinoa",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Poêlée légumes verts + tofu grillé",
+            "kcal": 390
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Pain complet + avocat + œuf poché",
+            "kcal": 340
+        },
+        "dejeuner": {
+            "desc": "Buddha bowl : lentilles, carottes râpées, poivrons, roquette",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Riz complet + haricots rouges + chou-fleur",
+            "kcal": 410
+        },
+        "exercices": [
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Flocons d’avoine + lait d’amande + myrtilles",
+            "kcal": 330
+        },
+        "dejeuner": {
+            "desc": "Salade pois chiches + concombres + tomates + riz",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe courge + tartines pain complet + houmous",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Granola + yaourt nature + fraises",
+            "kcal": 320
+        },
+        "dejeuner": {
+            "desc": "Tofu sauté + brocoli + carottes + nouilles complètes",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Soupe lentilles + œuf dur + épinards",
+            "kcal": 400
+        },
+        "exercices": [
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            },
+            {
+                "name": "Gainage",
+                "sets": 3,
+                "reps": "30 sec",
+                "kcal": 30
+            },
+            {
+                "name": "Crunchs",
+                "sets": 3,
+                "reps": 20,
+                "kcal": 40
+            }
+        ]
+    },
+    {
+        "petit_dejeuner": {
+            "desc": "Smoothie banane + beurre de cacahuète + flocons d’avoine",
+            "kcal": 350
+        },
+        "dejeuner": {
+            "desc": "Pois chiches + courgettes + quinoa",
+            "kcal": 480
+        },
+        "diner": {
+            "desc": "Poêlée légumes verts + tofu grillé",
+            "kcal": 390
+        },
+        "exercices": [
+            {
+                "name": "Fentes avant",
+                "sets": 3,
+                "reps": 12,
+                "kcal": 65
+            },
+            {
+                "name": "Pompes",
+                "sets": 3,
+                "reps": 10,
+                "kcal": 50
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 15,
+                "kcal": 70
+            }
+        ]
+    }
+]

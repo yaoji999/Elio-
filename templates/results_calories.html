@@ -47,12 +47,12 @@
         {% for jour, plan in plan_data.items() %}
         <tr>
             <td>{{ jour }}</td>
-            <td>{{ plan.petit_dejeuner.desc }} ({{ plan.petit_dejeuner.kcal }} kcal)</td>
-            <td>{{ plan.dejeuner.desc }} ({{ plan.dejeuner.kcal }} kcal)</td>
-            <td>{{ plan.diner.desc }} ({{ plan.diner.kcal }} kcal)</td>
+            <td>{{ plan['petit_dejeuner']['desc'] }} ({{ plan['petit_dejeuner']['kcal'] }} kcal)</td>
+            <td>{{ plan['dejeuner']['desc'] }} ({{ plan['dejeuner']['kcal'] }} kcal)</td>
+            <td>{{ plan['diner']['desc'] }} ({{ plan['diner']['kcal'] }} kcal)</td>
             <td>
-                {% for exo in plan.exercices %}
-                    {{ exo.name }} – {{ exo.sets }} x {{ exo.reps }} ({{ exo.kcal }} kcal)<br>
+                {% for exo in plan['exercices'] %}
+                    {{ exo['name'] }} – {{ exo['sets'] }} x {{ exo['reps'] }} ({{ exo['kcal'] }} kcal)<br>
                 {% endfor %}
             </td>
         </tr>

@@ -25,9 +25,9 @@ def results():
 
         plans = data[:jours]
 
-        return render_template('results.html', age=age, taille=taille, poids=poids,
-                               objectif=objectif, niveau=niveau, jours=jours,
-                               regime=regime, plans=plans)
+        return render_template('results_calories.html', age=age, taille=taille, poids=poids,
+                       objectif=objectif, niveau=niveau, jours=jours,
+                       regime=regime, plans=plans)
     except Exception as e:
         return f"Erreur dans le traitement des données : {str(e)}", 500
 

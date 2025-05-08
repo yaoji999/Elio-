@@ -1,72 +1,52 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>Programme personnalisé ELIO</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #121212;
-      color: #f4f4f4;
-      padding: 40px;
-    }
-    .container {
-      max-width: 900px;
-      margin: auto;
-      background: #1e1e1e;
-      padding: 40px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px #333;
-    }
-    h1, h2 {
-      text-align: center;
-      color: #2e7d32;
-    }
-    p {
-      font-size: 16px;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 30px;
-    }
-    th, td {
-      border: 1px solid #555;
-      padding: 10px;
-      text-align: left;
-    }
-    th {
-      background-color: #2e7d32;
-      color: white;
-    }
-    td {
-      background-color: #2a2a2a;
-    }
-    .exercice-item {
-      line-height: 1.6;
-      margin-bottom: 5px;
-    }
-    .pagination {
-      display: flex;
-      justify-content: space-between;
-      margin-top: 20px;
-    }
-    .pagination button {
-      padding: 10px 20px;
-      background-color: #2e7d32;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-    .pagination button:disabled {
-      background-color: #444;
-      cursor: default;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>Programme personnalisé ELIO</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #f4f4f4;
+            padding: 40px;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #1e1e1e;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #333;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #4caf50;
+        }
+        p {
+            font-size: 16px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 30px;
+            background-color: #2a2a2a;
+        }
+        th, td {
+            border: 1px solid #555;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #333;
+        }
+        .exercice-item {
+            line-height: 1.6;
+            margin-bottom: 5px;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
+<div class="container">
     <h1>ELIO</h1>
     <h2>Chaque jour compte</h2>
 
@@ -78,77 +58,28 @@
     <p><strong>Régime alimentaire :</strong> {{ regime }}</p>
 
     <h3>Plan sur {{ jours }} jour(s)</h3>
-
-    <table id="programme-table">
-      <thead>
+    <table>
         <tr>
-          <th>Jour</th>
-          <th>Petit déjeuner</th>
-          <th>Déjeuner</th>
-          <th>Dîner</th>
-          <th>Exercices</th>
+            <th>Jour</th>
+            <th>Petit déjeuner</th>
+            <th>Déjeuner</th>
+            <th>Dîner</th>
+            <th>Exercices</th>
         </tr>
-      </thead>
-      <tbody>
         {% for jour, plan in plan_data.items() %}
-        <tr class="jour-row" data-jour="{{ loop.index }}">
-          <td>{{ jour }}</td>
-          <td>{{ plan.petit_dejeuner.desc }} ({{ plan.petit_dejeuner.kcal }} kcal)</td>
-          <td>{{ plan.dejeuner.desc }} ({{ plan.dejeuner.kcal }} kcal)</td>
-          <td>{{ plan.diner.desc }} ({{ plan.diner.kcal }} kcal)</td>
-          <td>
-            {% for exo in plan.exercices %}
-              <div class="exercice-item">{{ exo.name }} – {{ exo.sets }} x {{ exo.reps }} ({{ exo.kcal }} kcal)</div>
-            {% endfor %}
-          </td>
+        <tr>
+            <td>{{ jour }}</td>
+            <td>{{ plan.petit_dejeuner.desc }} ({{ plan.petit_dejeuner.kcal }} kcal)</td>
+            <td>{{ plan.dejeuner.desc }} ({{ plan.dejeuner.kcal }} kcal)</td>
+            <td>{{ plan.diner.desc }} ({{ plan.diner.kcal }} kcal)</td>
+            <td>
+                {% for exo in plan.exercices %}
+                    <div class="exercice-item">{{ exo.name }} – {{ exo.sets }} x {{ exo.reps }} ({{ exo.kcal }} kcal)</div>
+                {% endfor %}
+            </td>
         </tr>
         {% endfor %}
-      </tbody>
     </table>
-
-    <div class="pagination">
-      <button id="prev-btn" disabled>← Semaine précédente</button>
-      <button id="next-btn">Semaine suivante →</button>
-    </div>
-  </div>
-
-  <script>
-    const rows = document.querySelectorAll('.jour-row');
-    const prevBtn = document.getElementById('prev-btn');
-    const nextBtn = document.getElementById('next-btn');
-
-    const joursParPage = 7;
-    let semaineActuelle = 1;
-    const totalJours = rows.length;
-    const totalSemaines = Math.ceil(totalJours / joursParPage);
-
-    function afficherSemaine(semaine) {
-      rows.forEach(row => {
-        const jour = parseInt(row.dataset.jour);
-        const debut = (semaine - 1) * joursParPage + 1;
-        const fin = semaine * joursParPage;
-        row.style.display = (jour >= debut && jour <= fin) ? '' : 'none';
-      });
-
-      prevBtn.disabled = semaine === 1;
-      nextBtn.disabled = semaine === totalSemaines;
-    }
-
-    prevBtn.addEventListener('click', () => {
-      if (semaineActuelle > 1) {
-        semaineActuelle--;
-        afficherSemaine(semaineActuelle);
-      }
-    });
-
-    nextBtn.addEventListener('click', () => {
-      if (semaineActuelle < totalSemaines) {
-        semaineActuelle++;
-        afficherSemaine(semaineActuelle);
-      }
-    });
-
-    afficherSemaine(semaineActuelle);
-  </script>
+</div>
 </body>
 </html>

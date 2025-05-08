@@ -1,0 +1,2380 @@
+{
+  "plans": {
+    "Semaine_1": [
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S1J1",
+          "kcal": 305
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S1J1",
+          "kcal": 510
+        },
+        "diner": {
+          "desc": "Dîner S1J1",
+          "kcal": 407
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S1J1",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S1J1",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S1J2",
+          "kcal": 310
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S1J2",
+          "kcal": 520
+        },
+        "diner": {
+          "desc": "Dîner S1J2",
+          "kcal": 414
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S1J2",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S1J2",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S1J3",
+          "kcal": 315
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S1J3",
+          "kcal": 530
+        },
+        "diner": {
+          "desc": "Dîner S1J3",
+          "kcal": 421
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S1J3",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S1J3",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S1J4",
+          "kcal": 320
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S1J4",
+          "kcal": 540
+        },
+        "diner": {
+          "desc": "Dîner S1J4",
+          "kcal": 428
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S1J4",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S1J4",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S1J5",
+          "kcal": 325
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S1J5",
+          "kcal": 550
+        },
+        "diner": {
+          "desc": "Dîner S1J5",
+          "kcal": 435
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S1J5",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S1J5",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S1J6",
+          "kcal": 330
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S1J6",
+          "kcal": 560
+        },
+        "diner": {
+          "desc": "Dîner S1J6",
+          "kcal": 442
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S1J6",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S1J6",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S1J7",
+          "kcal": 335
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S1J7",
+          "kcal": 570
+        },
+        "diner": {
+          "desc": "Dîner S1J7",
+          "kcal": 449
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S1J7",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S1J7",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      }
+    ],
+    "Semaine_2": [
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S2J1",
+          "kcal": 305
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S2J1",
+          "kcal": 510
+        },
+        "diner": {
+          "desc": "Dîner S2J1",
+          "kcal": 407
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S2J1",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S2J1",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S2J2",
+          "kcal": 310
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S2J2",
+          "kcal": 520
+        },
+        "diner": {
+          "desc": "Dîner S2J2",
+          "kcal": 414
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S2J2",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S2J2",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S2J3",
+          "kcal": 315
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S2J3",
+          "kcal": 530
+        },
+        "diner": {
+          "desc": "Dîner S2J3",
+          "kcal": 421
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S2J3",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S2J3",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S2J4",
+          "kcal": 320
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S2J4",
+          "kcal": 540
+        },
+        "diner": {
+          "desc": "Dîner S2J4",
+          "kcal": 428
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S2J4",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S2J4",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S2J5",
+          "kcal": 325
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S2J5",
+          "kcal": 550
+        },
+        "diner": {
+          "desc": "Dîner S2J5",
+          "kcal": 435
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S2J5",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S2J5",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S2J6",
+          "kcal": 330
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S2J6",
+          "kcal": 560
+        },
+        "diner": {
+          "desc": "Dîner S2J6",
+          "kcal": 442
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S2J6",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S2J6",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S2J7",
+          "kcal": 335
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S2J7",
+          "kcal": 570
+        },
+        "diner": {
+          "desc": "Dîner S2J7",
+          "kcal": 449
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S2J7",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S2J7",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      }
+    ],
+    "Semaine_3": [
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S3J1",
+          "kcal": 305
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S3J1",
+          "kcal": 510
+        },
+        "diner": {
+          "desc": "Dîner S3J1",
+          "kcal": 407
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S3J1",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S3J1",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S3J2",
+          "kcal": 310
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S3J2",
+          "kcal": 520
+        },
+        "diner": {
+          "desc": "Dîner S3J2",
+          "kcal": 414
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S3J2",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S3J2",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S3J3",
+          "kcal": 315
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S3J3",
+          "kcal": 530
+        },
+        "diner": {
+          "desc": "Dîner S3J3",
+          "kcal": 421
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S3J3",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S3J3",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S3J4",
+          "kcal": 320
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S3J4",
+          "kcal": 540
+        },
+        "diner": {
+          "desc": "Dîner S3J4",
+          "kcal": 428
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S3J4",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S3J4",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S3J5",
+          "kcal": 325
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S3J5",
+          "kcal": 550
+        },
+        "diner": {
+          "desc": "Dîner S3J5",
+          "kcal": 435
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S3J5",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S3J5",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S3J6",
+          "kcal": 330
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S3J6",
+          "kcal": 560
+        },
+        "diner": {
+          "desc": "Dîner S3J6",
+          "kcal": 442
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S3J6",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S3J6",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S3J7",
+          "kcal": 335
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S3J7",
+          "kcal": 570
+        },
+        "diner": {
+          "desc": "Dîner S3J7",
+          "kcal": 449
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S3J7",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S3J7",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      }
+    ],
+    "Semaine_4": [
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S4J1",
+          "kcal": 305
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S4J1",
+          "kcal": 510
+        },
+        "diner": {
+          "desc": "Dîner S4J1",
+          "kcal": 407
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S4J1",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S4J1",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S4J2",
+          "kcal": 310
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S4J2",
+          "kcal": 520
+        },
+        "diner": {
+          "desc": "Dîner S4J2",
+          "kcal": 414
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S4J2",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S4J2",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S4J3",
+          "kcal": 315
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S4J3",
+          "kcal": 530
+        },
+        "diner": {
+          "desc": "Dîner S4J3",
+          "kcal": 421
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S4J3",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S4J3",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S4J4",
+          "kcal": 320
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S4J4",
+          "kcal": 540
+        },
+        "diner": {
+          "desc": "Dîner S4J4",
+          "kcal": 428
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S4J4",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S4J4",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S4J5",
+          "kcal": 325
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S4J5",
+          "kcal": 550
+        },
+        "diner": {
+          "desc": "Dîner S4J5",
+          "kcal": 435
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S4J5",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S4J5",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S4J6",
+          "kcal": 330
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S4J6",
+          "kcal": 560
+        },
+        "diner": {
+          "desc": "Dîner S4J6",
+          "kcal": 442
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S4J6",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S4J6",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S4J7",
+          "kcal": 335
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S4J7",
+          "kcal": 570
+        },
+        "diner": {
+          "desc": "Dîner S4J7",
+          "kcal": 449
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S4J7",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S4J7",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      }
+    ],
+    "Semaine_5": [
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S5J1",
+          "kcal": 305
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S5J1",
+          "kcal": 510
+        },
+        "diner": {
+          "desc": "Dîner S5J1",
+          "kcal": 407
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S5J1",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S5J1",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S5J2",
+          "kcal": 310
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S5J2",
+          "kcal": 520
+        },
+        "diner": {
+          "desc": "Dîner S5J2",
+          "kcal": 414
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S5J2",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S5J2",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S5J3",
+          "kcal": 315
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S5J3",
+          "kcal": 530
+        },
+        "diner": {
+          "desc": "Dîner S5J3",
+          "kcal": 421
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S5J3",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S5J3",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S5J4",
+          "kcal": 320
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S5J4",
+          "kcal": 540
+        },
+        "diner": {
+          "desc": "Dîner S5J4",
+          "kcal": 428
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S5J4",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S5J4",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S5J5",
+          "kcal": 325
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S5J5",
+          "kcal": 550
+        },
+        "diner": {
+          "desc": "Dîner S5J5",
+          "kcal": 435
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S5J5",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S5J5",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S5J6",
+          "kcal": 330
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S5J6",
+          "kcal": 560
+        },
+        "diner": {
+          "desc": "Dîner S5J6",
+          "kcal": 442
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S5J6",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S5J6",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S5J7",
+          "kcal": 335
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S5J7",
+          "kcal": 570
+        },
+        "diner": {
+          "desc": "Dîner S5J7",
+          "kcal": 449
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S5J7",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S5J7",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      }
+    ],
+    "Semaine_6": [
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S6J1",
+          "kcal": 305
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S6J1",
+          "kcal": 510
+        },
+        "diner": {
+          "desc": "Dîner S6J1",
+          "kcal": 407
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S6J1",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S6J1",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S6J2",
+          "kcal": 310
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S6J2",
+          "kcal": 520
+        },
+        "diner": {
+          "desc": "Dîner S6J2",
+          "kcal": 414
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S6J2",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S6J2",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S6J3",
+          "kcal": 315
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S6J3",
+          "kcal": 530
+        },
+        "diner": {
+          "desc": "Dîner S6J3",
+          "kcal": 421
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S6J3",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S6J3",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S6J4",
+          "kcal": 320
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S6J4",
+          "kcal": 540
+        },
+        "diner": {
+          "desc": "Dîner S6J4",
+          "kcal": 428
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S6J4",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S6J4",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S6J5",
+          "kcal": 325
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S6J5",
+          "kcal": 550
+        },
+        "diner": {
+          "desc": "Dîner S6J5",
+          "kcal": 435
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S6J5",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S6J5",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S6J6",
+          "kcal": 330
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S6J6",
+          "kcal": 560
+        },
+        "diner": {
+          "desc": "Dîner S6J6",
+          "kcal": 442
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S6J6",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S6J6",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S6J7",
+          "kcal": 335
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S6J7",
+          "kcal": 570
+        },
+        "diner": {
+          "desc": "Dîner S6J7",
+          "kcal": 449
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S6J7",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S6J7",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      }
+    ],
+    "Semaine_7": [
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S7J1",
+          "kcal": 305
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S7J1",
+          "kcal": 510
+        },
+        "diner": {
+          "desc": "Dîner S7J1",
+          "kcal": 407
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S7J1",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S7J1",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S7J2",
+          "kcal": 310
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S7J2",
+          "kcal": 520
+        },
+        "diner": {
+          "desc": "Dîner S7J2",
+          "kcal": 414
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S7J2",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S7J2",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S7J3",
+          "kcal": 315
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S7J3",
+          "kcal": 530
+        },
+        "diner": {
+          "desc": "Dîner S7J3",
+          "kcal": 421
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S7J3",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S7J3",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S7J4",
+          "kcal": 320
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S7J4",
+          "kcal": 540
+        },
+        "diner": {
+          "desc": "Dîner S7J4",
+          "kcal": 428
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S7J4",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S7J4",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S7J5",
+          "kcal": 325
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S7J5",
+          "kcal": 550
+        },
+        "diner": {
+          "desc": "Dîner S7J5",
+          "kcal": 435
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S7J5",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S7J5",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S7J6",
+          "kcal": 330
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S7J6",
+          "kcal": 560
+        },
+        "diner": {
+          "desc": "Dîner S7J6",
+          "kcal": 442
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S7J6",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S7J6",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S7J7",
+          "kcal": 335
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S7J7",
+          "kcal": 570
+        },
+        "diner": {
+          "desc": "Dîner S7J7",
+          "kcal": 449
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S7J7",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S7J7",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      }
+    ],
+    "Semaine_8": [
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S8J1",
+          "kcal": 305
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S8J1",
+          "kcal": 510
+        },
+        "diner": {
+          "desc": "Dîner S8J1",
+          "kcal": 407
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S8J1",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S8J1",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S8J2",
+          "kcal": 310
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S8J2",
+          "kcal": 520
+        },
+        "diner": {
+          "desc": "Dîner S8J2",
+          "kcal": 414
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S8J2",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S8J2",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S8J3",
+          "kcal": 315
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S8J3",
+          "kcal": 530
+        },
+        "diner": {
+          "desc": "Dîner S8J3",
+          "kcal": 421
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S8J3",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S8J3",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S8J4",
+          "kcal": 320
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S8J4",
+          "kcal": 540
+        },
+        "diner": {
+          "desc": "Dîner S8J4",
+          "kcal": 428
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S8J4",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S8J4",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S8J5",
+          "kcal": 325
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S8J5",
+          "kcal": 550
+        },
+        "diner": {
+          "desc": "Dîner S8J5",
+          "kcal": 435
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S8J5",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S8J5",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S8J6",
+          "kcal": 330
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S8J6",
+          "kcal": 560
+        },
+        "diner": {
+          "desc": "Dîner S8J6",
+          "kcal": 442
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S8J6",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S8J6",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S8J7",
+          "kcal": 335
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S8J7",
+          "kcal": 570
+        },
+        "diner": {
+          "desc": "Dîner S8J7",
+          "kcal": 449
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S8J7",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S8J7",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      }
+    ],
+    "Semaine_9": [
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S9J1",
+          "kcal": 305
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S9J1",
+          "kcal": 510
+        },
+        "diner": {
+          "desc": "Dîner S9J1",
+          "kcal": 407
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S9J1",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S9J1",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S9J2",
+          "kcal": 310
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S9J2",
+          "kcal": 520
+        },
+        "diner": {
+          "desc": "Dîner S9J2",
+          "kcal": 414
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S9J2",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S9J2",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S9J3",
+          "kcal": 315
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S9J3",
+          "kcal": 530
+        },
+        "diner": {
+          "desc": "Dîner S9J3",
+          "kcal": 421
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S9J3",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S9J3",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S9J4",
+          "kcal": 320
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S9J4",
+          "kcal": 540
+        },
+        "diner": {
+          "desc": "Dîner S9J4",
+          "kcal": 428
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S9J4",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S9J4",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S9J5",
+          "kcal": 325
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S9J5",
+          "kcal": 550
+        },
+        "diner": {
+          "desc": "Dîner S9J5",
+          "kcal": 435
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S9J5",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S9J5",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S9J6",
+          "kcal": 330
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S9J6",
+          "kcal": 560
+        },
+        "diner": {
+          "desc": "Dîner S9J6",
+          "kcal": 442
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S9J6",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S9J6",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S9J7",
+          "kcal": 335
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S9J7",
+          "kcal": 570
+        },
+        "diner": {
+          "desc": "Dîner S9J7",
+          "kcal": 449
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S9J7",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S9J7",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      }
+    ],
+    "Semaine_10": [
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S10J1",
+          "kcal": 305
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S10J1",
+          "kcal": 510
+        },
+        "diner": {
+          "desc": "Dîner S10J1",
+          "kcal": 407
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S10J1",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S10J1",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S10J2",
+          "kcal": 310
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S10J2",
+          "kcal": 520
+        },
+        "diner": {
+          "desc": "Dîner S10J2",
+          "kcal": 414
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S10J2",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S10J2",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S10J3",
+          "kcal": 315
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S10J3",
+          "kcal": 530
+        },
+        "diner": {
+          "desc": "Dîner S10J3",
+          "kcal": 421
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S10J3",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S10J3",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S10J4",
+          "kcal": 320
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S10J4",
+          "kcal": 540
+        },
+        "diner": {
+          "desc": "Dîner S10J4",
+          "kcal": 428
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S10J4",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S10J4",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S10J5",
+          "kcal": 325
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S10J5",
+          "kcal": 550
+        },
+        "diner": {
+          "desc": "Dîner S10J5",
+          "kcal": 435
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S10J5",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S10J5",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S10J6",
+          "kcal": 330
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S10J6",
+          "kcal": 560
+        },
+        "diner": {
+          "desc": "Dîner S10J6",
+          "kcal": 442
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S10J6",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S10J6",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S10J7",
+          "kcal": 335
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S10J7",
+          "kcal": 570
+        },
+        "diner": {
+          "desc": "Dîner S10J7",
+          "kcal": 449
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S10J7",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S10J7",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      }
+    ],
+    "Semaine_11": [
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S11J1",
+          "kcal": 305
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S11J1",
+          "kcal": 510
+        },
+        "diner": {
+          "desc": "Dîner S11J1",
+          "kcal": 407
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S11J1",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S11J1",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S11J2",
+          "kcal": 310
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S11J2",
+          "kcal": 520
+        },
+        "diner": {
+          "desc": "Dîner S11J2",
+          "kcal": 414
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S11J2",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S11J2",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S11J3",
+          "kcal": 315
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S11J3",
+          "kcal": 530
+        },
+        "diner": {
+          "desc": "Dîner S11J3",
+          "kcal": 421
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S11J3",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S11J3",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S11J4",
+          "kcal": 320
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S11J4",
+          "kcal": 540
+        },
+        "diner": {
+          "desc": "Dîner S11J4",
+          "kcal": 428
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S11J4",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S11J4",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S11J5",
+          "kcal": 325
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S11J5",
+          "kcal": 550
+        },
+        "diner": {
+          "desc": "Dîner S11J5",
+          "kcal": 435
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S11J5",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S11J5",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S11J6",
+          "kcal": 330
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S11J6",
+          "kcal": 560
+        },
+        "diner": {
+          "desc": "Dîner S11J6",
+          "kcal": 442
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S11J6",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S11J6",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S11J7",
+          "kcal": 335
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S11J7",
+          "kcal": 570
+        },
+        "diner": {
+          "desc": "Dîner S11J7",
+          "kcal": 449
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S11J7",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S11J7",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      }
+    ],
+    "Semaine_12": [
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S12J1",
+          "kcal": 305
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S12J1",
+          "kcal": 510
+        },
+        "diner": {
+          "desc": "Dîner S12J1",
+          "kcal": 407
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S12J1",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S12J1",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S12J2",
+          "kcal": 310
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S12J2",
+          "kcal": 520
+        },
+        "diner": {
+          "desc": "Dîner S12J2",
+          "kcal": 414
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S12J2",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S12J2",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S12J3",
+          "kcal": 315
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S12J3",
+          "kcal": 530
+        },
+        "diner": {
+          "desc": "Dîner S12J3",
+          "kcal": 421
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S12J3",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S12J3",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S12J4",
+          "kcal": 320
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S12J4",
+          "kcal": 540
+        },
+        "diner": {
+          "desc": "Dîner S12J4",
+          "kcal": 428
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S12J4",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S12J4",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S12J5",
+          "kcal": 325
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S12J5",
+          "kcal": 550
+        },
+        "diner": {
+          "desc": "Dîner S12J5",
+          "kcal": 435
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S12J5",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S12J5",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S12J6",
+          "kcal": 330
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S12J6",
+          "kcal": 560
+        },
+        "diner": {
+          "desc": "Dîner S12J6",
+          "kcal": 442
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S12J6",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S12J6",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      },
+      {
+        "petit_dejeuner": {
+          "desc": "Petit déjeuner S12J7",
+          "kcal": 335
+        },
+        "dejeuner": {
+          "desc": "Déjeuner S12J7",
+          "kcal": 570
+        },
+        "diner": {
+          "desc": "Dîner S12J7",
+          "kcal": 449
+        },
+        "exercices": [
+          {
+            "name": "Exercice A S12J7",
+            "sets": 3,
+            "reps": 15,
+            "kcal": 70
+          },
+          {
+            "name": "Exercice B S12J7",
+            "sets": 3,
+            "reps": 20,
+            "kcal": 60
+          }
+        ]
+      }
+    ]
+  }
+}

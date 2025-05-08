@@ -3,10 +3,6 @@ import json
 
 app = Flask(__name__)
 
-# Charger le fichier JSON des 90 jours
-with open('ELIO_12_Semaines.json', 'r', encoding='utf-8') as f:
-    all_weeks = json.load(f)['plans']
-
 @app.route('/')
 def index():
     return render_template('elio_formulaire.html')
@@ -22,57 +18,20 @@ def generate():
         jours = int(request.form['jours'])
         regime = request.form['regime']
 
-        # Filtres selon les régimes alimentaires
-        if regime in ["halal", "végétarien", "végan"]:
-            replacements = {
-                "halal": {
-                    "porc": "poulet grillé",
-                    "bacon": "œufs brouillés",
-                    "jambon": "poisson vapeur",
-                    "saucisse": "steak haché halal",
-                    "lard": "falafel maison",
-                    "alcool": "jus de grenade"
-                },
-                "végétarien": {
-                    "steak": "galette de lentilles",
-                    "poulet": "tofu mariné",
-                    "thon": "falafel",
-                    "jambon": "œuf dur",
-                    "poisson": "burger végétal"
-                },
-                "végan": {
-                    "fromage": "tofu fumé",
-                    "œuf": "tofu brouillé",
-                    "yaourt": "yaourt soja",
-                    "lait": "lait d'amande",
-                    "beurre": "huile d'olive",
-                    "poulet": "pois chiches rôtis",
-                    "poisson": "steak végétal"
-                }
-            }
+        # Charger les 12 semaines depuis le fichier JSON
+        with open('ELIO_12_Semaines.json', 'r', encoding='utf-8') as f:
+            all_weeks = json.load(f)['plans']
 
-            def adapter_texte(texte, regime):
-                texte_modif = texte
-                for interdit, remplacement in replacements[regime].items():
-                    texte_modif = texte_modif.replace(interdit, remplacement)
-                    texte_modif = texte_modif.replace(interdit.capitalize(), remplacement)
-                return texte_modif
-
-            for plan in all_plans:
-                for repas in ["petit_dejeuner", "dejeuner", "diner"]:
-                    plan[repas]["desc"] = adapter_texte(plan[repas]["desc"], regime)
-
-        # Sélectionner le nombre de jours demandés
+        # Créer le plan final avec rotation sur 12 semaines
         plan_data = {}
-jour_total = 1
-
-for i in range(jours):
-    semaine_index = (i // 7) % 12 + 1  # 1 à 12
-    jour_semaine = i % 7               # 0 à 6
-    semaine_cle = f"Semaine_{semaine_index}"
-    jour_plan = all_weeks[semaine_cle][jour_semaine]
-    plan_data[f"Jour {jour_total}"] = jour_plan
-    jour_total += 1
+        jour_total = 1
+        for i in range(jours):
+            semaine_index = (i // 7) % 12 + 1
+            jour_semaine = i % 7
+            semaine_cle = f"Semaine_{semaine_index}"
+            jour_plan = all_weeks[semaine_cle][jour_semaine]
+            plan_data[f"Jour {jour_total}"] = jour_plan
+            jour_total += 1
 
         return render_template("results_calories.html",
                                age=age, taille=taille, poids=poids,

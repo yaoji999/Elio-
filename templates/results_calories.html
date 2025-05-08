@@ -7,58 +7,41 @@
         body {
             font-family: Arial, sans-serif;
             background-color: #121212;
-            color: white;
-            padding: 20px;
+            color: #f4f4f4;
+            padding: 40px;
         }
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: auto;
-            background: #1f1f1f;
+            background: #1e1e1e;
             padding: 40px;
             border-radius: 10px;
-            box-shadow: 0 0 15px #000;
+            box-shadow: 0 0 10px #333;
         }
-        h1 {
+        h1, h2 {
             text-align: center;
-            color: #2e7d32;
-            margin-bottom: 5px;
-        }
-        h2 {
-            text-align: center;
-            font-size: 18px;
-            color: #2e7d32;
-            margin-bottom: 30px;
+            color: #4caf50;
         }
         p {
-            margin: 5px 0;
+            font-size: 16px;
         }
         table {
             width: 100%;
             border-collapse: collapse;
             margin-top: 30px;
+            background-color: #2a2a2a;
         }
         th, td {
-            border: 1px solid #333;
+            border: 1px solid #555;
             padding: 10px;
             text-align: left;
         }
         th {
-            background-color: #2e7d32;
-            color: white;
+            background-color: #333;
         }
-        td {
-            background-color: #2a2a2a;
-        }
-        @media (max-width: 768px) {
-            body {
-                padding: 10px;
-            }
-            .container {
-                padding: 20px;
-            }
-            table {
-                font-size: 14px;
-            }
+        .exercice-item {
+            line-height: 1.6;
+            margin-bottom: 5px;
         }
     </style>
 </head>
@@ -74,6 +57,7 @@
     <p><strong>Niveau :</strong> {{ niveau }}</p>
     <p><strong>Régime alimentaire :</strong> {{ regime }}</p>
 
+    <h3>Plan sur {{ jours }} jour(s)</h3>
     <table>
         <tr>
             <th>Jour</th>
@@ -90,7 +74,7 @@
             <td>{{ plan.diner.desc }} ({{ plan.diner.kcal }} kcal)</td>
             <td>
                 {% for exo in plan.exercices %}
-                    {{ exo.name }} – {{ exo.sets }} x {{ exo.reps }} ({{ exo.kcal }} kcal)<br>
+                    <div class="exercice-item">{{ exo.name }} – {{ exo.sets }} x {{ exo.reps }} ({{ exo.kcal }} kcal)</div>
                 {% endfor %}
             </td>
         </tr>

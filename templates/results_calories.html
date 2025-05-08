@@ -2,32 +2,71 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Programme ELIO</title>
+    <title>Programme personnalisé ELIO</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            padding: 30px;
+            background-color: #121212;
+            color: white;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #1f1f1f;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px #000;
+        }
+        h1 {
+            text-align: center;
+            color: #2e7d32;
+            margin-bottom: 5px;
         }
         h2 {
+            text-align: center;
+            font-size: 18px;
             color: #2e7d32;
+            margin-bottom: 30px;
+        }
+        p {
+            margin: 5px 0;
         }
         table {
             width: 100%;
             border-collapse: collapse;
-            margin-top: 20px;
+            margin-top: 30px;
         }
         th, td {
-            border: 1px solid #aaa;
-            padding: 8px;
+            border: 1px solid #333;
+            padding: 10px;
             text-align: left;
         }
         th {
-            background-color: #e0e0e0;
+            background-color: #2e7d32;
+            color: white;
+        }
+        td {
+            background-color: #2a2a2a;
+        }
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            .container {
+                padding: 20px;
+            }
+            table {
+                font-size: 14px;
+            }
         }
     </style>
 </head>
 <body>
-    <h2>Programme personnalisé ELIO</h2>
+<div class="container">
+    <h1>ELIO</h1>
+    <h2>Chaque jour compte</h2>
+
     <p><strong>Âge :</strong> {{ age }} ans</p>
     <p><strong>Taille :</strong> {{ taille }} cm</p>
     <p><strong>Poids :</strong> {{ poids }} kg</p>
@@ -35,7 +74,6 @@
     <p><strong>Niveau :</strong> {{ niveau }}</p>
     <p><strong>Régime alimentaire :</strong> {{ regime }}</p>
 
-    <h3>Plan sur {{ jours }} jour(s)</h3>
     <table>
         <tr>
             <th>Jour</th>
@@ -47,16 +85,17 @@
         {% for jour, plan in plan_data.items() %}
         <tr>
             <td>{{ jour }}</td>
-            <td>{{ plan['petit_dejeuner']['desc'] }} ({{ plan['petit_dejeuner']['kcal'] }} kcal)</td>
-            <td>{{ plan['dejeuner']['desc'] }} ({{ plan['dejeuner']['kcal'] }} kcal)</td>
-            <td>{{ plan['diner']['desc'] }} ({{ plan['diner']['kcal'] }} kcal)</td>
+            <td>{{ plan.petit_dejeuner.desc }} ({{ plan.petit_dejeuner.kcal }} kcal)</td>
+            <td>{{ plan.dejeuner.desc }} ({{ plan.dejeuner.kcal }} kcal)</td>
+            <td>{{ plan.diner.desc }} ({{ plan.diner.kcal }} kcal)</td>
             <td>
-                {% for exo in plan['exercices'] %}
+                {% for exo in plan.exercices %}
                     {{ exo.name }} – {{ exo.sets }} x {{ exo.reps }} ({{ exo.kcal }} kcal)<br>
                 {% endfor %}
             </td>
         </tr>
         {% endfor %}
     </table>
+</div>
 </body>
 </html>

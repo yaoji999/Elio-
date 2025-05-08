@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Programme ELIO</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 40px;
+            background: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+        }
+        .day-block {
+            background: white;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        table {
+            width: 100%;
+            margin-top: 10px;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px 10px;
+            border: 1px solid #ccc;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>Programme ELIO (92 jours)</h1>
+
+    <form method="POST">
+        <button type="submit">Afficher le programme</button>
+    </form>
+
+    {% if plans %}
+        {% for plan in plans %}
+            <div class="day-block">
+                <h2>Jour {{ plan.jour }}</h2>
+                <p><strong>Échauffement :</strong> {{ plan.echauffement }}</p>
+
+                <h3>Exercices</h3>
+                <table>
+                    <tr>
+                        <th>Nom</th>
+                        <th>Répétitions</th>
+                        <th>Calories</th>
+                    </tr>
+                    {% for ex in plan.exercices %}
+                    <tr>
+                        <td>{{ ex.nom }}</td>
+                        <td>{{ ex.repetitions }}</td>
+                        <td>{{ ex.calories }}</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+
+                <h3>Repas</h3>
+                <table>
+                    <tr><th>Type</th><th>Nom</th><th>Calories</th></tr>
+                    <tr><td>Petit-déjeuner</td><td>{{ plan.repas.petit_dejeuner.nom }}</td><td>{{ plan.repas.petit_dejeuner.calories }}</td></tr>
+                    <tr><td>Déjeuner</td><td>{{ plan.repas.dejeuner.nom }}</td><td>{{ plan.repas.dejeuner.calories }}</td></tr>
+                    <tr><td>Dîner</td><td>{{ plan.repas.diner.nom }}</td><td>{{ plan.repas.diner.calories }}</td></tr>
+                </table>
+            </div>
+        {% endfor %}
+    {% endif %}
+</body>
+</html>

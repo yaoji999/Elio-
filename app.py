@@ -1,11 +1,10 @@
 from flask import Flask, render_template, request
 import json
-import traceback
 
 app = Flask(__name__)
 
-# Charger le fichier JSON des 92 jours
-with open('ELIO_12_Semaines.json', 'r', encoding='utf-8') as f:
+# Charger le fichier JSON des 90 jours
+with open('ELIO_Plan_90_Jours_Complet.json', 'r', encoding='utf-8') as f:
     all_plans = json.load(f)
 
 @app.route('/')
@@ -23,6 +22,7 @@ def generate():
         jours = int(request.form['jours'])
         regime = request.form['regime']
 
+        # Filtres selon les régimes alimentaires
         if regime in ["halal", "végétarien", "végan"]:
             replacements = {
                 "halal": {
@@ -60,8 +60,7 @@ def generate():
 
             for plan in all_plans:
                 for repas in ["petit_dejeuner", "dejeuner", "diner"]:
-                    nom_actuel = plan["repas"][repas]["nom"]
-                    plan["repas"][repas]["nom"] = adapter_texte(nom_actuel, regime)
+                    plan[repas]["desc"] = adapter_texte(plan[repas]["desc"], regime)
 
         # Sélectionner le nombre de jours demandés
         plan_data = {}
@@ -74,7 +73,7 @@ def generate():
                                regime=regime, jours=jours,
                                plan_data=plan_data)
     except Exception as e:
-        return f"<pre>{traceback.format_exc()}</pre>"
+        return f"Erreur : {e}"
 
 if __name__ == '__main__':
     app.run(debug=True)

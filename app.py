@@ -64,8 +64,15 @@ def generate():
 
         # Sélectionner le nombre de jours demandés
         plan_data = {}
-        for i in range(1, jours + 1):
-            plan_data[f"Jour {i}"] = all_plans[i - 1]
+jour_total = 1
+
+for i in range(jours):
+    semaine_index = (i // 7) % 12 + 1  # 1 à 12
+    jour_semaine = i % 7               # 0 à 6
+    semaine_cle = f"Semaine_{semaine_index}"
+    jour_plan = all_weeks[semaine_cle][jour_semaine]
+    plan_data[f"Jour {jour_total}"] = jour_plan
+    jour_total += 1
 
         return render_template("results_calories.html",
                                age=age, taille=taille, poids=poids,

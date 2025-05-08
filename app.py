@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request
 import json
+import traceback
 
 app = Flask(__name__)
 
@@ -59,7 +60,6 @@ def generate():
 
             for plan in all_plans:
                 for repas in ["petit_dejeuner", "dejeuner", "diner"]:
-                    # CORRECTION ICI : accès à plan["repas"][repas]["nom"] au lieu de plan[repas]["desc"]
                     nom_actuel = plan["repas"][repas]["nom"]
                     plan["repas"][repas]["nom"] = adapter_texte(nom_actuel, regime)
 
@@ -74,7 +74,7 @@ def generate():
                                regime=regime, jours=jours,
                                plan_data=plan_data)
     except Exception as e:
-        return f"Erreur : {e}"
+        return f"<pre>{traceback.format_exc()}</pre>"
 
 if __name__ == '__main__':
     app.run(debug=True)

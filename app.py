@@ -4,8 +4,8 @@ import json
 app = Flask(__name__)
 
 # Charger le fichier JSON des 90 jours
-with open('ELIO_Plan_90_Jours_Complet.json', 'r', encoding='utf-8') as f:
-    all_plans = json.load(f)
+with open('ELIO_12_Semaines.json', 'r', encoding='utf-8') as f:
+    all_weeks = json.load(f)['plans']
 
 @app.route('/')
 def index():

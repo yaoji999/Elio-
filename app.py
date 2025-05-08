@@ -3,7 +3,7 @@ import json
 
 app = Flask(__name__)
 
-# Charger les données du fichier JSON
+# Charger le fichier JSON des 90 jours
 with open('ELIO_Plan_90_Jours_Complet.json', 'r', encoding='utf-8') as f:
     all_plans = json.load(f)
 
@@ -22,16 +22,50 @@ def generate():
         jours = int(request.form['jours'])
         regime = request.form['regime']
 
-        # Préparer les jours personnalisés
+        # Filtres selon les régimes alimentaires
+        if regime in ["halal", "végétarien", "végan"]:
+            replacements = {
+                "halal": {
+                    "porc": "poulet grillé",
+                    "bacon": "œufs brouillés",
+                    "jambon": "poisson vapeur",
+                    "saucisse": "steak haché halal",
+                    "lard": "falafel maison",
+                    "alcool": "jus de grenade"
+                },
+                "végétarien": {
+                    "steak": "galette de lentilles",
+                    "poulet": "tofu mariné",
+                    "thon": "falafel",
+                    "jambon": "œuf dur",
+                    "poisson": "burger végétal"
+                },
+                "végan": {
+                    "fromage": "tofu fumé",
+                    "œuf": "tofu brouillé",
+                    "yaourt": "yaourt soja",
+                    "lait": "lait d'amande",
+                    "beurre": "huile d'olive",
+                    "poulet": "pois chiches rôtis",
+                    "poisson": "steak végétal"
+                }
+            }
+
+            def adapter_texte(texte, regime):
+                texte_modif = texte
+                for interdit, remplacement in replacements[regime].items():
+                    texte_modif = texte_modif.replace(interdit, remplacement)
+                    texte_modif = texte_modif.replace(interdit.capitalize(), remplacement)
+                return texte_modif
+
+            for plan in all_plans:
+                for repas in ["petit_dejeuner", "dejeuner", "diner"]:
+                    plan[repas]["desc"] = adapter_texte(plan[repas]["desc"], regime)
+
+        # Sélectionner le nombre de jours demandés
         plan_data = {}
         for i in range(1, jours + 1):
-            jour_plan = all_plans[i - 1]
-            plan_data[f"Jour {i}"] = {
-                "petit_dejeuner": jour_plan["petit_dejeuner"],
-                "dejeuner": jour_plan["dejeuner"],
-                "diner": jour_plan["diner"],
-                "exercices": jour_plan["exercices"]
-            }
+            plan_data[f"Jour {i}"] = all_plans[i - 1]
 
         return render_template("results_calories.html",
                                age=age, taille=taille, poids=poids,

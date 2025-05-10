@@ -4,8 +4,7 @@ import json
 app = Flask(__name__)
 app.secret_key = "elio_super_secret_key"
 
-with open('ELIO_Plan_91_Jours_Complet.json', 'r', encoding='utf-8') as f:
-    all_plans = json.load(f)
+with open('ELIO_Plan_92_Jours_Complet_Calories.json', 'r', encoding='utf-8') as f:
 
 @app.route('/', methods=['GET', 'POST'])
 def index():

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>ELIO - Générateur de programme</title>
+  <style>
+    body { background-color: #1e1e1e; color: #f5f5f5; font-family: Arial, sans-serif; padding: 30px; }
+    .form-container { background-color: #2b2b2b; padding: 20px; border-radius: 10px; max-width: 500px; margin: auto; }
+    h1, h2 { text-align: center; color: #00cc66; }
+    input, select, button { width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px; border: none; }
+    button { background-color: #00cc66; font-weight: bold; cursor: pointer; }
+    button:hover { background-color: #00e673; }
+  </style>
+</head>
+<body>
+
+<h1>ELIO</h1>
+<h2>Chaque jour compte</h2>
+
+<div class="form-container">
+  <form method="post">
+    <input type="number" name="age" placeholder="Âge" required>
+    <input type="number" name="taille" placeholder="Taille (cm)" required>
+    <input type="number" name="poids" placeholder="Poids (kg)" required>
+    <select name="objectif" required>
+      <option value="">Objectif</option>
+      <option value="perte de poids">Perte de poids</option>
+      <option value="prise de masse">Prise de masse</option>
+      <option value="maintien">Maintien</option>
+    </select>
+    <select name="niveau" required>
+      <option value="">Niveau</option>
+      <option value="débutant">Débutant</option>
+      <option value="intermédiaire">Intermédiaire</option>
+      <option value="avancé">Avancé</option>
+    </select>
+    <input type="number" name="jours" placeholder="Nombre de jours du programme" required>
+    <select name="regime">
+      <option value="aucune">Aucune contrainte</option>
+      <option value="halal">Halal</option>
+      <option value="végétarien">Végétarien</option>
+      <option value="végan">Végan</option>
+    </select>
+    <button type="submit">Générer mon programme</button>
+  </form>
+</div>
+
+</body>
+</html>

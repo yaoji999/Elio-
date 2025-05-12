@@ -4,18 +4,31 @@
   <meta charset="UTF-8">
   <title>Résultats ELIO</title>
   <style>
-    body { background-color: #000; color: #fff; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; padding: 20px; }
-    table { width: 100%; border-collapse: collapse; margin-top: 20px; background-color: #111; }
-    th, td { border: 1px solid #333; padding: 12px; text-align: center; }
-    th { background-color: #00cc66; color: black; }
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      padding: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      background-color: #111;
+    }
+    th, td {
+      border: 1px solid #333;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #00cc66;
+      color: black;
+    }
     .nav-buttons {
       margin-top: 20px;
       display: flex;
       justify-content: space-between;
-    }
-    .pdf-button {
-      margin-top: 20px;
-      text-align: center;
     }
     button {
       background-color: #00cc66;
@@ -29,19 +42,15 @@
     button:hover {
       background-color: #00e673;
     }
-    .progress-bar {
+    .pdf-button {
       margin-top: 20px;
       text-align: center;
-      font-size: 18px;
-      color: #00cc66;
-      font-weight: bold;
     }
     .motivation {
-      margin-top: 15px;
-      text-align: center;
+      margin-top: 20px;
       font-size: 16px;
       color: #999;
-      font-style: italic;
+      text-align: center;
     }
   </style>
 </head>
@@ -49,10 +58,6 @@
 
 <h1>ELIO</h1>
 <h2>Chaque jour compte</h2>
-
-<div class="progress-bar">
-  Semaine {{ semaine }} / {{ total_semaines }}
-</div>
 
 <div class="pdf-button">
   <form action="/download" method="post">
@@ -88,20 +93,6 @@
   </tbody>
 </table>
 
-<div class="motivation">
-  {% if semaine == 1 %}
-    C'est parti ! Bravo d'avoir commencé ton programme ELIO !
-  {% elif semaine <= 4 %}
-    Continue comme ça, les résultats arrivent !
-  {% elif semaine <= 8 %}
-    Tu es à plus de la moitié, reste concentré !
-  {% elif semaine <= 12 %}
-    Plus que quelques semaines pour atteindre ton objectif !
-  {% else %}
-    Dernière ligne droite ! Ne lâche rien !
-  {% endif %}
-</div>
-
 <div class="nav-buttons">
   <form method="post">
     {% if semaine > 1 %}
@@ -111,6 +102,18 @@
       <button name="action" value="next">Semaine suivante →</button>
     {% endif %}
   </form>
+</div>
+
+<div class="motivation">
+  {% if semaine == 1 %}
+    C'est parti ! Bravo pour ton premier pas !
+  {% elif semaine <= 4 %}
+    Continue, chaque effort compte !
+  {% elif semaine <= 8 %}
+    Tu es au milieu de ton parcours, garde la motivation !
+  {% else %}
+    Dernière ligne droite, tout donner !
+  {% endif %}
 </div>
 
 </body>

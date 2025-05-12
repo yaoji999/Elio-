@@ -41,6 +41,48 @@ def results():
     end = min(start + 7, session['jours'])
     plan_data = {f"Jour {i+1}": all_plans[i] for i in range(start, end)}
 
+    # Adapter les repas selon régime alimentaire
+    if session['regime'] in ["halal", "végétarien", "végan"]:
+        replacements = {
+            "halal": {
+                "porc": "poulet grillé",
+                "bacon": "œufs brouillés",
+                "jambon": "poisson vapeur",
+                "saucisse": "steak haché halal",
+                "lard": "falafel maison",
+                "alcool": "jus de grenade"
+            },
+            "végétarien": {
+                "steak": "galette de lentilles",
+                "poulet": "tofu mariné",
+                "thon": "falafel",
+                "jambon": "œuf dur",
+                "poisson": "burger végétal",
+                "saumon": "steak végétal",
+                "crevettes": "tofu grillé"
+            },
+            "végan": {
+                "fromage": "tofu fumé",
+                "œuf": "tofu brouillé",
+                "yaourt": "yaourt soja",
+                "lait": "lait d'amande",
+                "beurre": "huile d'olive",
+                "poulet": "pois chiches rôtis",
+                "poisson": "steak végétal",
+                "crevettes": "tofu grillé"
+            }
+        }
+
+        def adapter_texte(texte, regime):
+            texte_modif = texte.lower()
+            for interdit, remplacement in replacements[regime].items():
+                texte_modif = texte_modif.replace(interdit, remplacement)
+            return texte_modif.capitalize()
+
+        for jour, plan in plan_data.items():
+            for repas_type in ["petit_dejeuner", "dejeuner", "diner"]:
+                plan['repas'][repas_type]['nom'] = adapter_texte(plan['repas'][repas_type]['nom'], session['regime'])
+
     return render_template("results_calories.html",
                            age=session['age'],
                            taille=session['taille'],
@@ -53,7 +95,6 @@ def results():
                            semaine=session['week'] + 1,
                            total_semaines=(session['jours'] - 1) // 7 + 1)
 
-# AJOUT DU TÉLÉCHARGEMENT PDF :
 @app.route('/download', methods=['POST'])
 def download():
     if 'week' not in session:
@@ -106,7 +147,7 @@ def download():
     </table>
     </body>
     </html>
-    """, 
+    """,
     semaine=session['week'] + 1,
     total_semaines=(session['jours'] - 1) // 7 + 1,
     age=session['age'],

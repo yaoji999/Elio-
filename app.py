@@ -7,8 +7,8 @@ from flask import render_template_string
 app = Flask(__name__)
 app.secret_key = "elio_super_secret_key"
 
-# Charger le fichier JSON 92 jours
-with open('ELIO_Plan_92_Jours_Complet_Calories.json', 'r', encoding='utf-8') as f:
+# Charger le fichier JSON
+with open('ELIO_Plan_92_Jours_Complet_MultiRegimes.json', 'r', encoding='utf-8') as f:
     all_plans = json.load(f)
 
 @app.route('/', methods=['GET', 'POST'])
@@ -20,7 +20,7 @@ def index():
         session['objectif'] = request.form['objectif']
         session['niveau'] = request.form['niveau']
         session['jours'] = int(request.form['jours'])
-        session['regime'] = request.form['regime']
+        session['regime'] = request.form['regime']  # 'omnivore', 'halal', 'vegetarien', 'vegan'
         session['week'] = 0
         return redirect(url_for('results'))
     return render_template('elio_formulaire.html')
@@ -39,49 +39,7 @@ def results():
 
     start = session['week'] * 7
     end = min(start + 7, session['jours'])
-    plan_data = {f"Jour {i+1}": all_plans[i] for i in range(start, end)}
-
-    # Adapter les repas selon régime alimentaire
-    if session['regime'] in ["halal", "végétarien", "végan"]:
-        replacements = {
-            "halal": {
-                "porc": "poulet grillé",
-                "bacon": "œufs brouillés",
-                "jambon": "poisson vapeur",
-                "saucisse": "steak haché halal",
-                "lard": "falafel maison",
-                "alcool": "jus de grenade"
-            },
-            "végétarien": {
-                "steak": "galette de lentilles",
-                "poulet": "tofu mariné",
-                "thon": "falafel",
-                "jambon": "œuf dur",
-                "poisson": "burger végétal",
-                "saumon": "steak végétal",
-                "crevettes": "tofu grillé"
-            },
-            "végan": {
-                "fromage": "tofu fumé",
-                "œuf": "tofu brouillé",
-                "yaourt": "yaourt soja",
-                "lait": "lait d'amande",
-                "beurre": "huile d'olive",
-                "poulet": "pois chiches rôtis",
-                "poisson": "steak végétal",
-                "crevettes": "tofu grillé"
-            }
-        }
-
-        def adapter_texte(texte, regime):
-            texte_modif = texte.lower()
-            for interdit, remplacement in replacements[regime].items():
-                texte_modif = texte_modif.replace(interdit, remplacement)
-            return texte_modif.capitalize()
-
-        for jour, plan in plan_data.items():
-            for repas_type in ["petit_dejeuner", "dejeuner", "diner"]:
-                plan['repas'][repas_type]['nom'] = adapter_texte(plan['repas'][repas_type]['nom'], session['regime'])
+    plan_data = {f"Jour {i+1}": all_plans[session['regime']][i] for i in range(start, end)}
 
     return render_template("results_calories.html",
                            age=session['age'],
@@ -102,7 +60,7 @@ def download():
 
     start = session['week'] * 7
     end = min(start + 7, session['jours'])
-    plan_data = {f"Jour {i+1}": all_plans[i] for i in range(start, end)}
+    plan_data = {f"Jour {i+1}": all_plans[session['regime']][i] for i in range(start, end)}
 
     html = render_template_string("""
     <html>

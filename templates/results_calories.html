@@ -25,12 +25,30 @@
     button:hover {
       background-color: #00e673;
     }
+    .progress-bar {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 18px;
+      color: #00cc66;
+      font-weight: bold;
+    }
+    .motivation {
+      margin-top: 15px;
+      text-align: center;
+      font-size: 16px;
+      color: #999;
+      font-style: italic;
+    }
   </style>
 </head>
 <body>
 
 <h1>ELIO</h1>
 <h2>Chaque jour compte</h2>
+
+<div class="progress-bar">
+  Semaine {{ semaine }} / {{ total_semaines }}
+</div>
 
 <table>
   <thead>
@@ -59,6 +77,20 @@
     {% endfor %}
   </tbody>
 </table>
+
+<div class="motivation">
+  {% if semaine == 1 %}
+    C'est parti ! Bravo d'avoir commencé ton programme ELIO !
+  {% elif semaine <= 4 %}
+    Continue comme ça, les résultats arrivent !
+  {% elif semaine <= 8 %}
+    Tu es à plus de la moitié, reste concentré !
+  {% elif semaine <= 12 %}
+    Plus que quelques semaines pour atteindre ton objectif !
+  {% else %}
+    Dernière ligne droite ! Ne lâche rien !
+  {% endif %}
+</div>
 
 <div class="nav-buttons">
   <form method="post">

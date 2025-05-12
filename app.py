@@ -11,8 +11,14 @@ app.secret_key = "elio_super_secret_key"
 with open('ELIO_Plan_92_Jours_Complet_MultiRegimes.json', 'r', encoding='utf-8') as f:
     all_plans = json.load(f)
 
-@app.route('/', methods=['GET', 'POST'])
-def index():
+# Home page d'accueil
+@app.route('/')
+def home():
+    return render_template('home.html')
+
+# Page du formulaire
+@app.route('/formulaire', methods=['GET', 'POST'])
+def formulaire():
     if request.method == 'POST':
         session['age'] = int(request.form['age'])
         session['taille'] = int(request.form['taille'])
@@ -20,7 +26,6 @@ def index():
         session['objectif'] = request.form['objectif']
         session['niveau'] = request.form['niveau']
         session['jours'] = int(request.form['jours'])
-        # Correction ici
         regime_input = request.form['regime'].lower()
         if regime_input in ['halal', 'vegetarien', 'vegan']:
             session['regime'] = regime_input
@@ -30,13 +35,15 @@ def index():
         return redirect(url_for('results'))
     return render_template('elio_formulaire.html')
 
+# Résultats du programme
 @app.route('/results', methods=['GET', 'POST'])
 def results():
     if 'week' not in session:
-        return redirect(url_for('index'))
+        return redirect(url_for('formulaire'))
 
-    if session['regime'] not in all_plans:
-        return "Erreur : régime non trouvé"
+    regime = session['regime']
+    if regime not in all_plans:
+        return "Erreur : régime non trouvé", 400
 
     if request.method == 'POST':
         action = request.form.get('action')
@@ -47,7 +54,7 @@ def results():
 
     start = session['week'] * 7
     end = min(start + 7, session['jours'])
-    plan_data = {f"Jour {i+1}": all_plans[session['regime']][i] for i in range(start, end)}
+    plan_data = {f"Jour {i+1}": all_plans[regime][i] for i in range(start, end)}
 
     return render_template("results_calories.html",
                            age=session['age'],
@@ -61,14 +68,19 @@ def results():
                            semaine=session['week'] + 1,
                            total_semaines=(session['jours'] - 1) // 7 + 1)
 
+# Télécharger en PDF
 @app.route('/download', methods=['POST'])
 def download():
     if 'week' not in session:
-        return redirect(url_for('index'))
+        return redirect(url_for('formulaire'))
+
+    regime = session['regime']
+    if regime not in all_plans:
+        return "Erreur : régime non trouvé", 400
 
     start = session['week'] * 7
     end = min(start + 7, session['jours'])
-    plan_data = {f"Jour {i+1}": all_plans[session['regime']][i] for i in range(start, end)}
+    plan_data = {f"Jour {i+1}": all_plans[regime][i] for i in range(start, end)}
 
     html = render_template_string("""
     <html>
@@ -102,7 +114,7 @@ def download():
           <td>{{ plan['repas']['dejeuner']['nom'] }}</td>
           <td>{{ plan['repas']['diner']['nom'] }}</td>
           <td>
-            {{ plan['echauffement'] }}<br>
+            {{ plan['echauffement'] }}<br><br>
             {% for ex in plan['exercices'] %}
               {{ ex['nom'] }} ({{ ex['repetitions'] }})<br>
             {% endfor %}

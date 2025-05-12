@@ -11,12 +11,8 @@ app.secret_key = "elio_super_secret_key"
 with open('ELIO_Plan_92_Jours_Complet_MultiRegimes.json', 'r', encoding='utf-8') as f:
     all_plans = json.load(f)
 
-@app.route('/')
-def home():
-    return render_template('home.html')
-
-@app.route('/formulaire', methods=['GET', 'POST'])
-def formulaire():
+@app.route('/', methods=['GET', 'POST'])
+def index():
     if request.method == 'POST':
         session['age'] = int(request.form['age'])
         session['taille'] = int(request.form['taille'])
@@ -24,7 +20,12 @@ def formulaire():
         session['objectif'] = request.form['objectif']
         session['niveau'] = request.form['niveau']
         session['jours'] = int(request.form['jours'])
-        session['regime'] = request.form['regime']  # 'omnivore', 'halal', 'vegetarien', 'vegan'
+        # Correction ici
+        regime_input = request.form['regime'].lower()
+        if regime_input in ['halal', 'vegetarien', 'vegan']:
+            session['regime'] = regime_input
+        else:
+            session['regime'] = 'omnivore'
         session['week'] = 0
         return redirect(url_for('results'))
     return render_template('elio_formulaire.html')
@@ -32,7 +33,10 @@ def formulaire():
 @app.route('/results', methods=['GET', 'POST'])
 def results():
     if 'week' not in session:
-        return redirect(url_for('formulaire'))
+        return redirect(url_for('index'))
+
+    if session['regime'] not in all_plans:
+        return "Erreur : régime non trouvé"
 
     if request.method == 'POST':
         action = request.form.get('action')
@@ -43,11 +47,7 @@ def results():
 
     start = session['week'] * 7
     end = min(start + 7, session['jours'])
-
-    try:
-        plan_data = {f"Jour {i+1}": all_plans[session['regime']][i] for i in range(start, end)}
-    except Exception as e:
-        return f"Erreur chargement programme : {str(e)}"
+    plan_data = {f"Jour {i+1}": all_plans[session['regime']][i] for i in range(start, end)}
 
     return render_template("results_calories.html",
                            age=session['age'],
@@ -64,7 +64,7 @@ def results():
 @app.route('/download', methods=['POST'])
 def download():
     if 'week' not in session:
-        return redirect(url_for('formulaire'))
+        return redirect(url_for('index'))
 
     start = session['week'] * 7
     end = min(start + 7, session['jours'])

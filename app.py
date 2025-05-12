@@ -60,7 +60,7 @@ def results():
 @app.route('/download', methods=['POST'])
 def download():
     if 'week' not in session:
-        return redirect(url_for('formulaire'))
+        return redirect(url_for('index'))
 
     start = session['week'] * 7
     end = min(start + 7, session['jours'])

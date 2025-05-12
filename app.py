@@ -20,7 +20,7 @@ def index():
         session['objectif'] = request.form['objectif']
         session['niveau'] = request.form['niveau']
         session['jours'] = int(request.form['jours'])
-        session['regime'] = request.form['regime']  # 'omnivore', 'halal', 'vegetarien', 'vegan'
+        session['regime'] = request.form['regime']  # doit correspondre aux clés du JSON
         session['week'] = 0
         return redirect(url_for('results'))
     return render_template('elio_formulaire.html')
@@ -29,6 +29,10 @@ def index():
 def results():
     if 'week' not in session:
         return redirect(url_for('index'))
+
+    regime = session['regime']
+    if regime not in all_plans:
+        return "Erreur: régime non trouvé", 400
 
     if request.method == 'POST':
         action = request.form.get('action')
@@ -39,7 +43,7 @@ def results():
 
     start = session['week'] * 7
     end = min(start + 7, session['jours'])
-    plan_data = {f"Jour {i+1}": all_plans[session['regime']][i] for i in range(start, end)}
+    plan_data = {f"Jour {i+1}": all_plans[regime][i] for i in range(start, end)}
 
     return render_template("results_calories.html",
                            age=session['age'],
@@ -58,9 +62,13 @@ def download():
     if 'week' not in session:
         return redirect(url_for('index'))
 
+    regime = session['regime']
+    if regime not in all_plans:
+        return "Erreur: régime non trouvé", 400
+
     start = session['week'] * 7
     end = min(start + 7, session['jours'])
-    plan_data = {f"Jour {i+1}": all_plans[session['regime']][i] for i in range(start, end)}
+    plan_data = {f"Jour {i+1}": all_plans[regime][i] for i in range(start, end)}
 
     html = render_template_string("""
     <html>

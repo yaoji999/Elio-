@@ -13,6 +13,10 @@
       display: flex;
       justify-content: space-between;
     }
+    .pdf-button {
+      margin-top: 20px;
+      text-align: center;
+    }
     button {
       background-color: #00cc66;
       color: black;
@@ -48,6 +52,12 @@
 
 <div class="progress-bar">
   Semaine {{ semaine }} / {{ total_semaines }}
+</div>
+
+<div class="pdf-button">
+  <form action="/download" method="post">
+    <button type="submit">Télécharger cette semaine en PDF</button>
+  </form>
 </div>
 
 <table>

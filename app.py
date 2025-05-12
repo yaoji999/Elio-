@@ -16,7 +16,7 @@ def home():
     return render_template('home.html')
 
 @app.route('/formulaire', methods=['GET', 'POST'])
-def index():
+def formulaire():
     if request.method == 'POST':
         session['age'] = int(request.form['age'])
         session['taille'] = int(request.form['taille'])
@@ -32,7 +32,7 @@ def index():
 @app.route('/results', methods=['GET', 'POST'])
 def results():
     if 'week' not in session:
-        return redirect(url_for('index'))
+        return redirect(url_for('formulaire'))
 
     if request.method == 'POST':
         action = request.form.get('action')
@@ -43,7 +43,11 @@ def results():
 
     start = session['week'] * 7
     end = min(start + 7, session['jours'])
-    plan_data = {f"Jour {i+1}": all_plans[session['regime']][i] for i in range(start, end)}
+
+    try:
+        plan_data = {f"Jour {i+1}": all_plans[session['regime']][i] for i in range(start, end)}
+    except Exception as e:
+        return f"Erreur chargement programme : {str(e)}"
 
     return render_template("results_calories.html",
                            age=session['age'],
@@ -60,7 +64,7 @@ def results():
 @app.route('/download', methods=['POST'])
 def download():
     if 'week' not in session:
-        return redirect(url_for('index'))
+        return redirect(url_for('formulaire'))
 
     start = session['week'] * 7
     end = min(start + 7, session['jours'])
